@@ -10,10 +10,14 @@ void redirectIO(){
 	#endif
 }
 
+
+void solve(){
+
+}
+
 int main(){
 	redirectIO();
-	
-    
+	solve();
 
 	return 0;
 }
