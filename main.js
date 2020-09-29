@@ -23,5 +23,15 @@ const readLine=()=> inputString[currentLine++];
 ===================================================*/
 
 const main=()=>{
+	let counts={}
+	let userName=readLine()
 	
+	let set = new Set()
+	for(let char of userName)
+		set.add(char)
+
+
+	if(set.size%2==0)
+		console.log('CHAT WITH HER!')
+	else console.log('IGNORE HIM!')
 }
