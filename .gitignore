@@ -1,5 +1,6 @@
 *.exe
 main.cpp
+main.js
 in.txt
 out.txt
 ~$TrainingSheet.xlsx
