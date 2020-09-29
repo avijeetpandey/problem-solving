@@ -1,3 +1,7 @@
+// ============= Boiler Plate Code ===================//
+/**
+* @author {Avijeet}
+*/
 'use strict';
 process.stdin.resume();
 process.stdin.setEncoding('utf-8');
@@ -18,8 +22,10 @@ process.stdin.on('end', _ => {
 });
 
 const readLine=()=> inputString[currentLine++];
+// ================================================ //
 
 
 const main=()=>{
 	// Write your code here
+	
 }

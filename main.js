@@ -1,3 +1,7 @@
+// ============= Boiler Plate Code ===================//
+/**
+* @author {Avijeet}
+*/
 'use strict';
 process.stdin.resume();
 process.stdin.setEncoding('utf-8');
@@ -18,14 +22,10 @@ process.stdin.on('end', _ => {
 });
 
 const readLine=()=> inputString[currentLine++];
+// ================================================ //
 
 
 const main=()=>{
-	let t = parseInt(readLine())
-	while(t--){
-		let s = readLine()
-		if(s.length <= 10)
-			console.log(s)
-		else console.log(s[0]+(s.length-2)+s[s.length-1])
-	}
+	// Write your code here
+	
 }
