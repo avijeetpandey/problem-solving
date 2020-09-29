@@ -1,7 +1,3 @@
-/*
-* @author {Avijeet}
-*/
-
 'use strict';
 process.stdin.resume();
 process.stdin.setEncoding('utf-8');
@@ -27,6 +23,15 @@ const readLine=()=> inputString[currentLine++];
 ===================================================*/
 
 const main=()=>{
-	// Write your code here
+	let newNumber=''
+	let firstNumber = readLine()
+	let secondNummber = readLine()
+	let length = firstNumber.length
+	for(let i=0;i<length ; i++){
+		if(firstNumber[i]==secondNummber[i])
+			newNumber+='0'
+		else newNumber+='1'
+	}
 	
+	console.log(newNumber)
 }
