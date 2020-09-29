@@ -23,12 +23,14 @@ const readLine=()=> inputString[currentLine++];
 ===================================================*/
 
 const main=()=>{
-	let firstString=readLine().toLowerCase()
-	let secondString=readLine().toLowerCase()
+	let x=readLine()
+	let uc=0,lc=0
+	for(let char of x)
+		if(char==char.toUpperCase())
+			uc++
+		else lc++
 
-	if(firstString<secondString)
-		console.log(-1)
-	else if(firstString>secondString)
-		console.log(1)
-	else console.log(0)
+	if(lc==uc || lc > uc)
+		console.log(x.toLowerCase())
+	else console.log(x.toUpperCase())
 }
