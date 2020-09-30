@@ -23,13 +23,8 @@ const readLine=()=> inputString[currentLine++];
 ===================================================*/
 
 const main=()=>{
-	let x=readLine().split('+').map(n=>+n)
-	x=x.sort().toString()
-	let str=''
-	for(let i=0;i<x.length;i++){
-		if(x[i]===',')
-			str+='+'
-		else str+=x[i]
-	}
-	console.log(str)
+	let set=new Set()
+	let numbers = readLine().split(' ').map(n=>+n)
+	numbers.forEach(number=>set.add(number))
+	console.log(4-set.size)
 }
