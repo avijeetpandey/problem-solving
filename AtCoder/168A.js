@@ -1,5 +1,5 @@
 'use strict';
-process.stdin.resume();
+process.stdin.resume();2
 process.stdin.setEncoding('utf-8');
 
 let inputString = '';
@@ -23,13 +23,10 @@ const readLine=()=> inputString[currentLine++];
 ===================================================*/
 
 const main=()=>{
-	let word = readLine()
-	let t=readLine()
-	let list=[]
-	while(t--){
-		let string=readLine()
-		list.push(string)
-	}
-	list.sort()
-	console.log(list)
+	let digit = +readLine() % 10
+	if(digit===3)
+		console.log('bon')
+	else if(digit ===0 || digit===1 || digit===6 || digit===8)
+		console.log('pon')
+	else console.log('hon')
 }
