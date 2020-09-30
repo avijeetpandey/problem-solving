@@ -23,14 +23,8 @@ const readLine=()=> inputString[currentLine++];
 ===================================================*/
 
 const main=()=>{
-	let price=+readLine()
-	let start=0
-	if(price%1000===0)
-		start=price
-	else while(price>=start){
-		start+=1000
-	}
-
-	console.log(start-price)
-
+	let temp=+readLine()
+	if(temp>=30)
+		console.log('Yes')
+	else console.log('No')
 }
