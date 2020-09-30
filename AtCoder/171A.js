@@ -23,11 +23,7 @@ const readLine=()=> inputString[currentLine++];
 ===================================================*/
 
 const main=()=>{
-	let snuke = readLine().split(" ")
-	let i=1
-	snuke.forEach(n=>{
-		if(n==='0')
-			console.log(i)
-		else i++
-	})
+	let a=readLine()
+
+	a == a.toUpperCase() ? console.log('A') : console.log('a')
 }
