@@ -23,5 +23,8 @@ const readLine=()=> inputString[currentLine++];
 ===================================================*/
 
 const main=()=>{
-	
+	let x=+readLine()
+	if(x===0)
+		console.log(1)
+	else console.log(0)
 }
