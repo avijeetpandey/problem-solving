@@ -23,8 +23,12 @@ const readLine=()=> inputString[currentLine++];
 ===================================================*/
 
 const main=()=>{
-	let x=parseInt(readLine())
-	let blocks=readLine().split(" ").map(n=>+n)
-	blocks.sort((a,b)=>a-b)
-	console.log(...blocks)
+	let t = parseInt(readLine())
+	let solCount=0
+	while(t--){
+		let [petya,vasya,tonya] = readLine().split(" ").map(n=>+n)
+		if(petya && vasya || vasya && tonya || petya && tonya)
+			solCount++
+	}
+	console.log(solCount)
 }
