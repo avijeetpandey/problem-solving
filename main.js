@@ -23,14 +23,5 @@ const readLine=()=> inputString[currentLine++];
 ===================================================*/
 
 const main=()=>{
-	let t=+readLine()
-	let rooms=0
-
-	while(t--){
-		let [a,b] = readLine().split(" ").map(n=>+n)
-		if(b-a>=2)
-			rooms++
-	}
-
-	console.log(rooms)
+	
 }
