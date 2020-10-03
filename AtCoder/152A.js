@@ -23,10 +23,7 @@ const readLine=()=> inputString[currentLine++];
 ===================================================*/
 
 const main=()=>{
-	let set = new Set()
+	let [test,all] = readLine().split(" ")
 
-	let nums = readLine().split(" ")
-	nums.forEach(number=>set.add(number))
-
-	set.size == 2 ? console.log('Yes') : console.log('No')
+	test === all ? console.log('Yes') : console.log('No')
 }
