@@ -23,6 +23,6 @@ const readLine=()=> inputString[currentLine++];
 ===================================================*/
 
 const main=()=>{
-	let s = readLine()
-	console.log(String.fromCharCode(s.charCodeAt(0)+1))
+	let radius = +readLine()
+	console.log(2*Math.PI*radius)
 }

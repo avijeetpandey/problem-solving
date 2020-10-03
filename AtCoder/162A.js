@@ -23,6 +23,8 @@ const readLine=()=> inputString[currentLine++];
 ===================================================*/
 
 const main=()=>{
-	let s = readLine()
-	console.log(String.fromCharCode(s.charCodeAt(0)+1))
+	let number = readLine()
+	if(number.search('7')!=-1)
+		console.log('Yes')
+	else console.log('No')
 }

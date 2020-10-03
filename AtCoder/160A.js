@@ -24,5 +24,6 @@ const readLine=()=> inputString[currentLine++];
 
 const main=()=>{
 	let s = readLine()
-	console.log(String.fromCharCode(s.charCodeAt(0)+1))
+
+	s[2]==s[3] && s[4]==s[5] ? console.log('Yes') : console.log('No')
 }

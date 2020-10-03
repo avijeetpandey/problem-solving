@@ -23,6 +23,7 @@ const readLine=()=> inputString[currentLine++];
 ===================================================*/
 
 const main=()=>{
-	let s = readLine()
-	console.log(String.fromCharCode(s.charCodeAt(0)+1))
+	let s = +readLine()
+
+	s%2===0 ? console.log(s/2) : console.log(Math.floor(s/2)+1)
 }

@@ -22,7 +22,20 @@ const readLine=()=> inputString[currentLine++];
            Main Solution Starts Here  
 ===================================================*/
 
+const swap=(a,b)=>{
+	return [b,a]
+}
+
 const main=()=>{
-	let s = readLine()
-	console.log(String.fromCharCode(s.charCodeAt(0)+1))
+	let [a,b,c] = readLine().split(" ")
+	a = a ^ b
+	b = a ^ b
+	a = a ^ b
+
+	a=a^c
+	c=a^c
+	a=a^c
+
+	console.log(a,b,c)
+
 }
