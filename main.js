@@ -23,26 +23,5 @@ const readLine=()=> inputString[currentLine++];
 ===================================================*/
 
 const main=()=>{
-	let n = +readLine()
-	let str = readLine().toLowerCase()
-	let pass = true
-
-	let alpha={}
-	for(let i=65;i<=90;i++)
-		alpha[String.fromCharCode(i).toLowerCase()]=0
-
-	for(let char of str)
-		alpha[char]++
-
-	for(let key in alpha){
-		if(alpha[key]===0){
-			pass=false
-			break
-		}
-	}
-
-	if(pass)
-		console.log('YES')
-	else console.log('NO')
-
+	
 }
