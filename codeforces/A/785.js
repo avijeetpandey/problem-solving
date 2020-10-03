@@ -23,16 +23,19 @@ const readLine=()=> inputString[currentLine++];
 ===================================================*/
 
 const main=()=>{
-	let [n,k]=readLine().split(" ").map(n=>+n)
-	let ans=0
-	while(n--){
-		let counter=0
-		let x=readLine()
-		for(let i=0;i<=k;i++)
-			if(x.search(i-'0')!=-1)
-				counter++
-		if(counter==(k+1))
-			ans++
+	let t=+readLine()
+	let sides={
+		'Tetrahedron' : 4,
+		'Cube' : 6,
+		'Octahedron' : 8,
+		'Dodecahedron' : 12,
+		'Icosahedron' : 20
 	}
-	console.log(ans)
+
+	let totalFaces=0
+	while(t--){
+		let shape=readLine()
+		totalFaces+=sides[shape]
+	}
+	console.log(totalFaces)
 }
