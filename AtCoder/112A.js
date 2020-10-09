@@ -23,11 +23,17 @@ const readLine=()=> inputString[currentLine++];
 ===================================================*/
 
 const main=()=>{
-	let t = readLine().split("")
-	let newNumber=''
-	t.forEach(digit=>{
-		digit==='9' ? newNumber+='1' : newNumber+='9'
-	})
+	let t = +readLine()
+	switch(t)
+	{
+		case 1:
+		console.log("Hello World")
+		break
 
-	console.log(newNumber)
+		default:
+		let a =+readLine()
+		let b=+readLine()
+		console.log(a+b)
+	}
+	
 }

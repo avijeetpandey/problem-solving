@@ -23,11 +23,7 @@ const readLine=()=> inputString[currentLine++];
 ===================================================*/
 
 const main=()=>{
-	let t = readLine().split("")
-	let newNumber=''
-	t.forEach(digit=>{
-		digit==='9' ? newNumber+='1' : newNumber+='9'
-	})
-
-	console.log(newNumber)
+	let [a,b]=readLine().split(" ").map(n=>+n)
+	b = Math.floor(b/2)+a
+	console.log(b)
 }
