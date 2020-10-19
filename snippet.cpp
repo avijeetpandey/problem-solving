@@ -12,7 +12,7 @@ void redirectIO(){
 
 
 void solve(){
-
+	cout<<"hello world"<<endl;
 }
 
 int main(){
