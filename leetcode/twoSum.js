@@ -1,8 +1,15 @@
-const twoSum = (nums, target) => {
-    const hashmap = {}
-    for (let i = 0; i < nums.length; i++){
-        const diff = target - nums[i];
-        if(hashmap[diff] !== undefined && hashmap[diff] !== i)  return [i, hashmap[diff]]
-		hashmap[nums[i]] = i
-    }
-}
+/**
+ * @param {number[]} nums
+ * @param {number} target
+ * @return {number[]}
+ */
+var twoSum = function(nums, target) {
+   let map = new Map()
+   for(let i=0;i<=nums.length-1;i++){
+       let subtractedValue = target-nums[i]
+       let matchingValue = map.get(subtractedValue)
+       if(matchingValue !== undefined)
+           return [matchingValue,i]
+       map.set(nums[i],i)
+   }
+};
