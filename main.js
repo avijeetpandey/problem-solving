@@ -26,11 +26,6 @@ const readLine=()=> inputString[currentLine++];
            Main Solution Starts Here  
 ===================================================*/
 const main=()=>{
-    let arr =[[1,5],[7,3],[3,5]]
-    let max=0
-   arr.forEach(a=>{
-        let x = a.reduce((a,b)=>a+b,0)
-        max = Math.max(x,max)
-   })
-   console.log(max)
+    let arr =[3,4,5,2]
+    console.log(arr[arr.length-1])
 }
