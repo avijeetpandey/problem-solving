@@ -1,4 +1,4 @@
-## Data structures and algorithms ( Javascript and Java ) :tada: 😎 
+## Data structures and algorithms ( Javascript  ) :tada: 😎 
 This repo contains my online submissions to various online judges 
 Content 
 - CP using Javascript ( Try if thats possible )
