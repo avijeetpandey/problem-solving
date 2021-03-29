@@ -1,6 +1,7 @@
-## Data structures and algorithms ( Javascript  ) :tada: 😎 
+## Data structures and algorithms) :tada: 😎 
 This repo contains my online submissions to various online judges 
 Content 
 - CP using Javascript ( Try if thats possible )
+- Implementation to Datastructures and Algorithms in Java
 - Data structures and algorithms
 - CodeForces contest solutions
