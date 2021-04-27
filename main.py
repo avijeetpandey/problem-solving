@@ -1,4 +1,6 @@
-from GFG.Palindrome import isPalindrome , isPalindromeSecond
-name = 'avijeet'
+from GFG.StringRotations import areStringRotations
 
-print(isPalindromeSecond(name))
+strOne = 'ABCD'
+strTwo = 'DBCA'
+
+print(areStringRotations(strOne,strTwo))
