@@ -1,7 +1,6 @@
 *.exe
 main.cpp
 main.js
-main.py
 in.txt
 out.txt
 ~$TrainingSheet.xlsx
