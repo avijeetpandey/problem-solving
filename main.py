@@ -1,7 +1,4 @@
-from Algorithms.Search import linearSearch
+from GFG.Palindrome import isPalindrome , isPalindromeSecond
+name = 'avijeet'
 
-from Algorithms.Search import linearSearch
-
-nums = [2,3,6,7]
-
-print(linearSearch(nums,6))
+print(isPalindromeSecond(name))
