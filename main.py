@@ -1,6 +1,8 @@
-from GFG.StringRotations import areStringRotations
+from GFG.SortArrayOfZeroesAndOnes import sortZeroesAndOnes
 
-strOne = 'ABCD'
-strTwo = 'DBCA'
+list = [0,1,1,1,1,2,2,2,2,2,0,0,0,0,0]
 
-print(areStringRotations(strOne,strTwo))
+sortZeroesAndOnes(list)
+
+print(list)
+
