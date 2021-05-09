@@ -2,6 +2,6 @@
 This repo contains my online submissions to various online judges 
 Content 
 - CP using Javascript ( Try if thats possible )
-- Implementation to Datastructures and Algorithms in Python
+- Implementation to Datastructures and Algorithms in Java
 - Data structures and algorithms
 - CodeForces contest solutions
