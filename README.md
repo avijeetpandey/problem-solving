@@ -4,4 +4,4 @@ Content
 - CP using Javascript ( Try if thats possible )
 - Implementation to Datastructures and Algorithms in Java
 - Data structures and algorithms
-- CodeForces contest solutions
+- Online coding solutions
