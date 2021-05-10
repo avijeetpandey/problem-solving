@@ -7,9 +7,8 @@ using namespace std;
 
 void solve(){
     fast_io
-    
 }
- 
+
 signed main(){
     solve();
     return 0;
