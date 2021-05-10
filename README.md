@@ -1,4 +1,4 @@
-## Data structures and algorithms) :tada: 😎 
+## Data structures and algorithms :tada: 😎 
 This repo contains my online submissions to various online judges 
 Content 
 - CP using Javascript ( Try if thats possible )
