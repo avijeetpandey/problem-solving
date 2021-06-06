@@ -23,5 +23,11 @@ int main()
      * 12 34 67 77  ( contains only unique elements ) 
      */
 
+    auto itr = s.find(67);
+
+    if(itr!=s.end()){
+        cout<<"The element is present in set"<<endl;
+    }else cout<<"The element is not present"<<endl;
+
     return 0;
 }
