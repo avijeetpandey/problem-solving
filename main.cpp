@@ -7,7 +7,7 @@ using namespace std;
 
 void solve(){
     fast_io
-    
+    cout<<"Hello"<<endl;
 }
  
 signed main(){
