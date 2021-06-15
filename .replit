@@ -1,2 +1,2 @@
 language = "swift"
-run = ""
+run = "swift main.swift"
