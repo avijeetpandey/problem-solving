@@ -1,7 +1,7 @@
 // Stack implementation in swift
 
 public struct Stack<T> {
-  fileprivate var array : [T]()
+  fileprivate var array = [T]()
   
   public var isEmpty : Bool {
       return array.isEmpty
@@ -24,3 +24,12 @@ public struct Stack<T> {
   }
 
 }
+
+var stack  = Stack<Int>()
+stack.push(23)
+stack.push(34)
+print("The Size of stack is \(stack.count)")
+stack.pop()
+print("The top element in stack is \(stack.top ?? 0)")
+stack.pop()
+print("The element in stack is : \(stack.count)")

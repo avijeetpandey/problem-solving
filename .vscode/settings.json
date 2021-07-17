@@ -1,7 +1,0 @@
-{
-    "files.associations": {
-        "*.prisma": "prisma",
-        "iostream": "cpp"
-    },
-    "C_Cpp.errorSquiggles": "Disabled"
-}
