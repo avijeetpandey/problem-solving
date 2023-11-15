@@ -1,4 +1,4 @@
-package gfg;
+package gfg.recursion;
 
 public class Print1toN {
     static void print(int n) {
