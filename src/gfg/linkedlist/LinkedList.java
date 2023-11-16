@@ -68,4 +68,8 @@ public class LinkedList {
         node.next = current.next;
         current.next = node;
     }
+
+    public void deleteHeadOfLinkedList() {
+       head = head.next;
+    }
 }

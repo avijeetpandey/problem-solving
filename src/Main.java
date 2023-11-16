@@ -13,5 +13,9 @@ public class Main {
         list.insertToEnd( new LinkedList.Node(15));
         list.insertAtPosition(new LinkedList.Node(34),4);
         list.printList();
+        System.out.println("========");
+        list.deleteHeadOfLinkedList();
+        System.out.println("========");
+        list.printList();
     }
 }
