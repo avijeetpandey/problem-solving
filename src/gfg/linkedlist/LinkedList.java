@@ -70,6 +70,7 @@ public class LinkedList {
     }
 
     public void deleteHeadOfLinkedList() {
+       if(head == null) return;
        head = head.next;
     }
 }
