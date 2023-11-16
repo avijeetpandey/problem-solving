@@ -11,11 +11,10 @@ public class Main {
         list.insertToEnd( new LinkedList.Node(13));
         list.insertToEnd( new LinkedList.Node(14));
         list.insertToEnd( new LinkedList.Node(15));
-        list.insertAtPosition(new LinkedList.Node(34),4);
+        System.out.println("============");
         list.printList();
-        System.out.println("========");
-        list.deleteHeadOfLinkedList();
-        System.out.println("========");
+        System.out.println("============");
+        list.deleteLastNode();
         list.printList();
     }
 }

@@ -69,8 +69,20 @@ public class LinkedList {
         current.next = node;
     }
 
-    public void deleteHeadOfLinkedList() {
+    public void deleteHead() {
        if(head == null) return;
        head = head.next;
+    }
+
+    public void deleteLastNode() {
+       if(head==null) return;
+       if(head.next==null) return;
+
+       Node secondLast = head;
+       while (secondLast.next.next != null) {
+           secondLast = secondLast.next;
+       }
+
+       secondLast.next = null;
     }
 }
