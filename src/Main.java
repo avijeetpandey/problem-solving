@@ -3,14 +3,14 @@ import gfg.linkedlist.LinkedList;
 public class Main {
     public static void main(String[] args) {
         LinkedList.Node head = new LinkedList.Node(10);
-        LinkedList.Node one = new LinkedList.Node(20);
-        LinkedList.Node two = new LinkedList.Node(30);
 
-        head.next = one;
-        one.next = two;
+        head.next = new LinkedList.Node(11);
 
         LinkedList list = new LinkedList(head);
-
+        list.insertToEnd( new LinkedList.Node(12));
+        list.insertToEnd( new LinkedList.Node(13));
+        list.insertToEnd( new LinkedList.Node(14));
+        list.insertToEnd( new LinkedList.Node(15));
         list.printList();
     }
 }
