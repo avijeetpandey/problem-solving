@@ -49,4 +49,22 @@ public class LinkedList {
         node.next = head;
         this.head = node;
     }
+
+    public void insertAtPosition(Node node,int position) {
+        if(position==1) {
+            node.next = head;
+            head = node;
+        }
+
+        Node current = head;
+        for(int i=0;i<=position-2 && current !=null;i++) {
+            current = current.next;
+        }
+
+        if(current==null) {
+            return;
+        }
+        node.next = current.next;
+        current.next = node;
+    }
 }
