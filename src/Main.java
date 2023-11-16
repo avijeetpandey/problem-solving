@@ -11,8 +11,7 @@ public class Main {
         list.insertToEnd( new LinkedList.Node(13));
         list.insertToEnd( new LinkedList.Node(14));
         list.insertToEnd( new LinkedList.Node(15));
-        list.insertAtTheBeginning(new LinkedList.Node(9));
-        list.insertAtPosition(new LinkedList.Node(34),10);
+        list.insertAtPosition(new LinkedList.Node(34),4);
         list.printList();
     }
 }

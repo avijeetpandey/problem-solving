@@ -57,6 +57,7 @@ public class LinkedList {
         }
 
         Node current = head;
+
         for(int i=0;i<=position-2 && current !=null;i++) {
             current = current.next;
         }
