@@ -39,4 +39,14 @@ public class LinkedList {
         }
         current.next = node;
     }
+
+    public void insertAtTheBeginning(Node node) {
+
+        if(this.head == null) {
+            head = node;
+            return;
+        }
+        node.next = head;
+        this.head = node;
+    }
 }
