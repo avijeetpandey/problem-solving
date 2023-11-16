@@ -1,4 +1,4 @@
-package gfg.linkedlist;
+package ds;
 
 public class LinkedList {
     public Node head;
