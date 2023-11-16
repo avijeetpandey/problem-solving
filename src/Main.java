@@ -11,10 +11,9 @@ public class Main {
         list.insertToEnd( new LinkedList.Node(13));
         list.insertToEnd( new LinkedList.Node(14));
         list.insertToEnd( new LinkedList.Node(15));
-        System.out.println("============");
         list.printList();
         System.out.println("============");
-        list.deleteLastNode();
-        list.printList();
+        int index = list.findPosition(13);
+        System.out.println("The position of key is " + index);
     }
 }

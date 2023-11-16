@@ -85,4 +85,18 @@ public class LinkedList {
 
        secondLast.next = null;
     }
+
+    public int findPosition(int key) {
+        if(head==null) return -1;
+        int count = 0;
+        Node current = head;
+        while(current.next != null) {
+            count++;
+            if(current.data == key) {
+                return count;
+            }
+            current = current.next;
+        }
+        return -1;
+    }
 }
