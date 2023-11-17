@@ -1,4 +1,4 @@
-package gfg.linkedlist;
+package ds;
 
 public class LinkedList {
     public Node head;
@@ -57,6 +57,7 @@ public class LinkedList {
         }
 
         Node current = head;
+
         for(int i=0;i<=position-2 && current !=null;i++) {
             current = current.next;
         }
@@ -66,5 +67,36 @@ public class LinkedList {
         }
         node.next = current.next;
         current.next = node;
+    }
+
+    public void deleteHead() {
+       if(head == null) return;
+       head = head.next;
+    }
+
+    public void deleteLastNode() {
+       if(head==null) return;
+       if(head.next==null) return;
+
+       Node secondLast = head;
+       while (secondLast.next.next != null) {
+           secondLast = secondLast.next;
+       }
+
+       secondLast.next = null;
+    }
+
+    public int findPosition(int key) {
+        if(head==null) return -1;
+        int count = 0;
+        Node current = head;
+        while(current.next != null) {
+            count++;
+            if(current.data == key) {
+                return count;
+            }
+            current = current.next;
+        }
+        return -1;
     }
 }
