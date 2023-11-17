@@ -1,7 +1,7 @@
 package leetcode;
 
-// Program to reverse a linkedlist iteratively
-public class ReverseLinkedList {
+// Program to reverse a linked list iteratively
+class ReverseLinkedList {
     public ListNode reverseLinkedList(ListNode node) {
         ListNode current = node;
         ListNode prev = null;
@@ -17,7 +17,7 @@ public class ReverseLinkedList {
         return prev;
     }
 
-    public static class ListNode {
+    static class ListNode {
         int val;
         ListNode next;
 
