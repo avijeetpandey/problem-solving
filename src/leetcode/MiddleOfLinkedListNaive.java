@@ -20,6 +20,8 @@ class MiddleOfLinkedListNaive {
     }
 
     ListNode middleOfList() {
+        if(head==null) return null;
+
         ListNode current = head;
         int count = 0;
         while(current!=null){
