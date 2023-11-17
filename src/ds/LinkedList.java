@@ -99,4 +99,28 @@ public class LinkedList {
         }
         return -1;
     }
+
+    public Node reverseLinkedList() {
+        Node current = head;
+        Node prev = null;
+        Node next = null;
+
+        // iterating over the linked list and changing the references
+        while(current != null) {
+            next = current.next;
+            current.next = prev;
+            prev = current;
+            current = next;
+        }
+
+        return prev;
+    }
+
+    public void printListWithNode(Node node) {
+        Node current = node;
+        while (current != null) {
+            System.out.println(current.data);
+            current = current.next;
+        }
+    }
 }
