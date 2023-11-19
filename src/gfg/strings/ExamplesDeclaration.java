@@ -21,5 +21,6 @@ public class ExamplesDeclaration {
 
         System.out.println(one.compareTo(two));
         System.out.println(one.contains(two));
+        System.out.println(one.indexOf(two));
     }
 }
