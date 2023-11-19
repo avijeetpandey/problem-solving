@@ -7,9 +7,8 @@ public class Main {
         list.insertToEnd(new LinkedList.Node(11));
         list.insertToEnd(new LinkedList.Node(12));
         list.insertToEnd(new LinkedList.Node(13));
-        list.printList();
-        LinkedList.Node reversedHead = list.reverseLinkedList();
-        System.out.println("============");
-        list.printListWithNode(reversedHead);
+        list.insertToEnd(new LinkedList.Node(14));
+        LinkedList.Node middleNode = list.middle();
+        System.out.println(middleNode.data);
     }
 }

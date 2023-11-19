@@ -123,4 +123,17 @@ public class LinkedList {
             current = current.next;
         }
     }
+
+    public Node middle() {
+        Node current = head;
+        Node fastPointer = current;
+        Node slowPointer = current;
+
+        while(fastPointer != null && fastPointer.next != null) {
+            slowPointer = slowPointer.next;
+            fastPointer = fastPointer.next.next;
+        }
+
+        return slowPointer;
+    }
 }
