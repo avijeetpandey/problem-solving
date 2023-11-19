@@ -14,5 +14,12 @@ public class ExamplesDeclaration {
         System.out.println(str);
         System.out.println(strBuffer);
         System.out.println(strBuilder);
+
+
+        String one = "geeksforgeeks";
+        String two = "for";
+
+        System.out.println(one.compareTo(two));
+        System.out.println(one.contains(two));
     }
 }
