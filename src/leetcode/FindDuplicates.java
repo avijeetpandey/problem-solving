@@ -19,14 +19,4 @@ public class FindDuplicates {
         System.gc();
         return 0;
     }
-
-    public static int findDuplicatesOptimised(int[] nums) {
-
-    }
-
-    public static void main(String[] args) {
-        int[] arr = {1,3,4,2,2};
-        int res = findDuplicatesOptimised(arr);
-        System.out.println(res);
-    }
 }
