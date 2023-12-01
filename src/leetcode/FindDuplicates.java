@@ -6,6 +6,7 @@ import java.util.Map;
 public class FindDuplicates {
     public static int findDuplicateBruteForce(int[] nums) {
         HashMap<Integer,Integer> map = new HashMap<Integer,Integer>();
+
         for(int i: nums) {
             map.put(i, map.getOrDefault(i,0)+1);
         }
