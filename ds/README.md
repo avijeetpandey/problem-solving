@@ -52,3 +52,4 @@ In post order traversal left subtree is visited first, then right subtree and th
 Complexity in binary tree
 
 - Insertion `O(logN)`
+- Traversal `O(N)`
