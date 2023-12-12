@@ -21,11 +21,11 @@ class Node:
     def addChild(self, data):
 
         # handling case if the node is already present
-        if self.data == data:
+        if data == self.data:
             return
 
         # if data is less insert into left subtree else add to right subtree
-        if self.data < data:
+        if data < self.data:
             if self.left:
                 self.left.addChild(data)
             else:
@@ -35,6 +35,20 @@ class Node:
                 self.right.addChild(data)
             else:
                 self.right = Node(data)
+
+    # function implementation of in order traversal
+    def inOrderTraversal(self):
+        elements = []
+
+        if self.left:
+            elements += self.left.inOrderTraversal()
+
+        elements.append(self.data)
+
+        if self.right:
+            elements += self.right.inOrderTraversal()
+
+        return elements
 
 
 # Utitlity function to build tree
@@ -50,8 +64,7 @@ def buildTree(list):
 
 
 # Implementation of the binary tree class
-list = [17, 4, 1, 20, 9, 23, 18, 34]
-
-root = buildTree(list)
-
-print(root.data)
+if __name__ == '__main__':
+    list = [17, 4, 1, 20, 9, 23, 18, 34]
+    root = buildTree(list)
+    print(root.inOrderTraversal())

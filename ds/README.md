@@ -6,6 +6,8 @@ Stack is an abstract data type , that follows LIFE structure ( last in first out
 
 Stack supports the following major operations
 
+---
+
 - `push O(1)` - this adds the element to the stack
 - `pop O(1)` - removes the top most element from the stack
 - `peek O(1)` - returns the top most element of the stack
@@ -29,3 +31,24 @@ A binary tree is a non linear data structure, which has the following properties
 - The left and right subtree each must also be a binary search tree.
 
 this property is called **BST** property of the tree , which makes insertion , deletion and searching efficient in a binary tree
+
+Types of traversal in a binary tree
+
+- Depth first search
+  - Inorder traversal
+  - Preorder traversal
+  - Postorder traversal
+- Breadth first search
+
+**In-Order Traversal**
+In inorder traversal the left subtree is visited first , then root and then right subtree
+
+**Pre-Order Traversal**
+In pre order traversal the root is traversed first , then left subtree and then right subtree is visited
+
+**Post-Order traversal**
+In post order traversal left subtree is visited first, then right subtree and then root
+
+Complexity in binary tree
+
+- Insertion `O(logN)`
