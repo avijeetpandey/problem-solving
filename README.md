@@ -1,3 +1,3 @@
 ## Problem solving :tada: :rocket:
 
-Repo to maintain code for problems solved using data structure and algorithms using JAVA
+Repo to maintain code for problems solved using data structure and algorithms using Python
