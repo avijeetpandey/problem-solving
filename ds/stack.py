@@ -12,6 +12,10 @@ class Stack:
 
     # function to pop element from the stack
     def pop(self):
+
+        if self.size() < 1:
+            return -1  # to handle empty stack case
+
         data = self.stack[-1]
         del self.stack[-1]
         return data
