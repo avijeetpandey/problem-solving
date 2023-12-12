@@ -50,6 +50,40 @@ class Node:
 
         return elements
 
+    # function to add post order traversal
+    def postOrderTraversal(self):
+        elements = []
+
+        # visit the left subtree
+        if self.left:
+            elements += self.left.postOrderTraversal()
+
+        # visit the right subtree
+        if self.right:
+            elements += self.right.postOrderTraversal()
+
+        # visit the root
+        elements.append(self.data)
+
+        return elements
+
+    # function to add pre order traversal
+    def preOrderTraversal(self):
+        elements = []
+
+        # visit the current node
+        elements.append(self.data)
+
+        # visit the left subtree
+        if self.left:
+            elements += self.left.preOrderTraversal()
+
+        # visit the right subtree
+        if self.right:
+            elements += self.right.preOrderTraversal()
+
+        return elements
+
 
 # Utitlity function to build tree
 def buildTree(list):
@@ -68,3 +102,4 @@ if __name__ == '__main__':
     list = [17, 4, 1, 20, 9, 23, 18, 34]
     root = buildTree(list)
     print(root.inOrderTraversal())
+    print(root.postOrderTraversal())
