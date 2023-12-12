@@ -84,6 +84,25 @@ class Node:
 
         return elements
 
+    # function to search element in a tree
+    def search(self, value):
+        if self.data == value:
+            return True
+
+        # search in the left subtree
+        if value < self.data:
+            if self.left:
+                return self.left.search(value)
+            else:
+                return False
+
+        # search the right subtree
+        if value > self.data:
+            if self.right:
+                return self.right.search(value)
+            else:
+                return False
+
 
 # Utitlity function to build tree
 def buildTree(list):
@@ -101,5 +120,4 @@ def buildTree(list):
 if __name__ == '__main__':
     list = [17, 4, 1, 20, 9, 23, 18, 34]
     root = buildTree(list)
-    print(root.inOrderTraversal())
-    print(root.postOrderTraversal())
+    print(root.search(12))
