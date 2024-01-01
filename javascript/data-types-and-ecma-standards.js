@@ -42,4 +42,17 @@ console.log(booleanIsLoggedIn);
  * "not empty string" - true
  * undefined - false
  * null - false
+ * Bigint
+ */
+
+// Primitive
+/**
+ * All primitive data types are call by value , that means if you copy the data the reference to original memory is not given and hence doesnot change its original value if copied value is changed
+ */
+
+// Reference type or non pritive
+/**
+ * Array
+ * Objects
+ * Functions
  */
