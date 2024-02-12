@@ -14,7 +14,7 @@
     {
       "label": "compile and run",
       "type": "shell",
-      "command": "g++ -std=c++17 -o ${fileBasenameNoExtension} ${file} && ./${fileBasenameNoExtension} < input.txt > output.txt && rm main",
+      "command": "g++ -std=c++17 -o ${fileBasenameNoExtension} ${file} && ./${fileBasenameNoExtension} < input.txt > output.txt && rm ${fileBasenameNoExtension}",
       "group": {
         "kind": "build",
         "isDefault": true
