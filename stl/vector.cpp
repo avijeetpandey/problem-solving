@@ -36,5 +36,16 @@ int main()
         cout << *it << " ";
     }
 
+    // erasing elements in a vector
+    v.erase(v.begin(), v.end()); //[start, end)
+
+    // another way of iterating vectors
+    cout << endl
+         << "==========Third Method========" << endl;
+    for (auto it : v)
+    {
+        cout << it << " ";
+    }
+
     return 0;
 }
