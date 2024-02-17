@@ -1,6 +1,2 @@
-1802629120
-
-Male sleeping
-0
-
-Female sleeping
+Animal speaks
+Human speaks

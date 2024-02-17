@@ -64,6 +64,8 @@ public:
     }
 };
 
+// private member of super class cannot be inherited
+
 int main()
 {
     Male male;
