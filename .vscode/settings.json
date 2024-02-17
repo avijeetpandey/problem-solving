@@ -2,6 +2,7 @@
   "files.associations": {
     "ios": "cpp",
     "typeinfo": "cpp",
-    "vector": "cpp"
+    "vector": "cpp",
+    "map": "cpp"
   }
 }
