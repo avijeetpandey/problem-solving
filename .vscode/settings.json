@@ -1,6 +1,7 @@
 {
   "files.associations": {
     "ios": "cpp",
-    "typeinfo": "cpp"
+    "typeinfo": "cpp",
+    "vector": "cpp"
   }
 }
