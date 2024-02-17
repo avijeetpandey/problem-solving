@@ -15,7 +15,7 @@ int findDuplicateNumber(vector<int> &nums)
         }
         else
         {
-            m[it]++;
+            m[it]++; 
         }
     }
 
