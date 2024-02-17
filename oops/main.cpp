@@ -3,6 +3,9 @@
 
 using namespace std;
 
+// init static variables
+int Hero::timeToComplete = 10;
+
 int main()
 {
     Hero hero;
@@ -27,6 +30,12 @@ int main()
     const int x = 10;
 
     cout << "X " << x << endl;
+
+    // using
+    cout << Hero::timeToComplete << endl;
+
+    // calling static functions
+    Hero::staticFunction();
 
     // calling destructor
     delete b;

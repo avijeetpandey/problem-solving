@@ -6,6 +6,7 @@ class Hero
 public:
     int health;
     char *name;
+    static int timeToComplete;
 
     Hero()
     {
@@ -48,6 +49,11 @@ public:
     void setName(char name[])
     {
         strcpy(this->name, name);
+    }
+
+    static void staticFunction()
+    {
+        cout << "The calling of the static function" << endl;
     }
 
     // creating destructor
