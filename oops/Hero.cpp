@@ -49,4 +49,10 @@ public:
     {
         strcpy(this->name, name);
     }
+
+    // creating destructor
+    ~Hero()
+    {
+        cout << "Destructor called" << endl;
+    }
 };
