@@ -1,6 +1,13 @@
 Constructor called
 Constructor called
-this-> 0x16d09af00
+this-> 0x16fc02f00
 Parameterised constructor called
-Address of pHero is: 0x16d09af00
+Address of pHero is: 0x16fc02f00
+Constructor called
 Aman
+X 10
+Destructor called
+Destructor called
+Destructor called
+Destructor called
+Destructor called

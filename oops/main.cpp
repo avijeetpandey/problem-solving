@@ -20,7 +20,17 @@ int main()
 
     Hero t(pHero);
 
+    Hero *b = new Hero;
+
     cout << t.getName() << endl;
+
+    const int x = 10;
+
+    cout << "X " << x << endl;
+
+    // calling destructor
+    delete b;
+    delete h;
 
     return 0;
 }
