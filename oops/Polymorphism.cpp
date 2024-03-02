@@ -1,36 +1,27 @@
 #include <iostream>
 using namespace std;
 
-class A
-{
+class A {
 public:
-    void sayHello()
-    {
-        cout << "Hello" << endl;
-    }
+  void sayHello() { cout << "Hello" << endl; }
 
-    int sayHello(int n)
-    {
-        cout << n << " " << endl;
-        return n;
-    }
+  int sayHello(int n) {
+    cout << n << " " << endl;
+    return n;
+  }
 
-    void sayHello(string name)
-    {
-        cout << "Name is: " << name << endl;
-    }
+  void sayHello(string name) { cout << "Name is: " << name << endl; }
 };
 
-int main()
-{
-    A ob;
-    ob.sayHello();
+int main() {
+  A ob;
+  ob.sayHello();
 
-    // calling overloaded functions
-    int r = ob.sayHello(2);
-    cout << r << " " << endl;
+  // calling overloaded functions
+  int r = ob.sayHello(2);
+  cout << r << " " << endl;
 
-    ob.sayHello("Avijeet");
+  ob.sayHello("Avijeet");
 
-    return 0;
+  return 0;
 }

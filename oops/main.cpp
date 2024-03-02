@@ -1,45 +1,44 @@
-#include <iostream>
 #include "Hero.cpp"
+#include <iostream>
 
 using namespace std;
 
 // init static variables
 int Hero::timeToComplete = 10;
 
-int main()
-{
-    Hero hero;
+int main() {
+  Hero hero;
 
-    // dynamic creation of class
-    Hero *h = new Hero;
+  // dynamic creation of class
+  Hero *h = new Hero;
 
-    // parameterised call
-    Hero pHero(12);
-    char name[7] = "Aman";
-    pHero.setName(name);
+  // parameterised call
+  Hero pHero(12);
+  char name[7] = "Aman";
+  pHero.setName(name);
 
-    // printing the address of the pHero
-    cout << "Address of pHero is: " << &pHero << endl;
+  // printing the address of the pHero
+  cout << "Address of pHero is: " << &pHero << endl;
 
-    Hero t(pHero);
+  Hero t(pHero);
 
-    Hero *b = new Hero;
+  Hero *b = new Hero;
 
-    cout << t.getName() << endl;
+  cout << t.getName() << endl;
 
-    const int x = 10;
+  const int x = 10;
 
-    cout << "X " << x << endl;
+  cout << "X " << x << endl;
 
-    // using
-    cout << Hero::timeToComplete << endl;
+  // using
+  cout << Hero::timeToComplete << endl;
 
-    // calling static functions
-    Hero::staticFunction();
+  // calling static functions
+  Hero::staticFunction();
 
-    // calling destructor
-    delete b;
-    delete h;
+  // calling destructor
+  delete b;
+  delete h;
 
-    return 0;
+  return 0;
 }

@@ -1,36 +1,25 @@
 #include <iostream>
 using namespace std;
 
-class Animal
-{
+class Animal {
 public:
-    void speaks()
-    {
-        cout << "Animal speaks" << endl;
-    }
+  void speaks() { cout << "Animal speaks" << endl; }
 };
 
-class Human
-{
+class Human {
 public:
-    void speaks()
-    {
-        cout << "Human speaks" << endl;
-    }
+  void speaks() { cout << "Human speaks" << endl; }
 };
 
-class Hybrid : public Animal, public Human
-{
-};
+class Hybrid : public Animal, public Human {};
 
-int main()
-{
-    Hybrid h;
+int main() {
+  Hybrid h;
 
-    // using the function of animal class to remove ambiguity
-    h.Animal::speaks();
+  // using the function of animal class to remove ambiguity
+  h.Animal::speaks();
 
-    h.Human::speaks();
+  h.Human::speaks();
 
-    return 0;
+  return 0;
 }

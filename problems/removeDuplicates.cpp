@@ -4,23 +4,20 @@
 
 using namespace std;
 
-int uniqueElements(vector<int> v)
-{
-    set<int> s;
+int uniqueElements(vector<int> v) {
+  set<int> s;
 
-    for (auto e : v)
-    {
-        s.insert(e);
-    }
+  for (auto e : v) {
+    s.insert(e);
+  }
 
-    return s.size();
+  return s.size();
 }
 
-int main()
-{
-    vector<int> v = {1, 1, 2};
+int main() {
+  vector<int> v = {1, 1, 2};
 
-    cout << uniqueElements(v) << endl;
+  cout << uniqueElements(v) << endl;
 
-    return 0;
+  return 0;
 }

@@ -1,17 +1,12 @@
-#include <iostream>
-using namespace std;
+
 
 // A read only class
-class EncapsulatedClass
-{
+class EncapsulatedClass {
 private:
-    string name;
-    int age;
-    int height;
+  string name;
+  int age;
+  int height;
 
 public:
-    int getAge()
-    {
-        return this->age;
-    }
+  int getAge() { return this->age; }
 };
