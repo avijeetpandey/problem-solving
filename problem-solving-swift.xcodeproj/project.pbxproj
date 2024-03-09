@@ -12,6 +12,7 @@
 		DC801B912B9CD1E500A0F56A /* LinearSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC801B902B9CD1E500A0F56A /* LinearSearch.swift */; };
 		DC801B932B9CD4AB00A0F56A /* goodPairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC801B922B9CD4AB00A0F56A /* goodPairs.swift */; };
 		DC801B952B9CD77700A0F56A /* removeDuplicates.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC801B942B9CD77700A0F56A /* removeDuplicates.swift */; };
+		DC801B972B9CD92B00A0F56A /* arrayConcatenation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC801B962B9CD92B00A0F56A /* arrayConcatenation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +34,7 @@
 		DC801B902B9CD1E500A0F56A /* LinearSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearSearch.swift; sourceTree = "<group>"; };
 		DC801B922B9CD4AB00A0F56A /* goodPairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = goodPairs.swift; sourceTree = "<group>"; };
 		DC801B942B9CD77700A0F56A /* removeDuplicates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = removeDuplicates.swift; sourceTree = "<group>"; };
+		DC801B962B9CD92B00A0F56A /* arrayConcatenation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arrayConcatenation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 			children = (
 				DC801B922B9CD4AB00A0F56A /* goodPairs.swift */,
 				DC801B942B9CD77700A0F56A /* removeDuplicates.swift */,
+				DC801B962B9CD92B00A0F56A /* arrayConcatenation.swift */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC801B972B9CD92B00A0F56A /* arrayConcatenation.swift in Sources */,
 				DC801B912B9CD1E500A0F56A /* LinearSearch.swift in Sources */,
 				DC801B802B9CCE0900A0F56A /* main.swift in Sources */,
 				DC801B932B9CD4AB00A0F56A /* goodPairs.swift in Sources */,
