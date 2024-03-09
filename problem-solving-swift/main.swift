@@ -7,7 +7,6 @@
 
 import Foundation
 
-let numbers = [1,2,3,5]
+let numbers = [1,2,3]
 
-print(linearSearch(numbers, target: 3))
-print(linearSearch(numbers, target: -3))
+print(numIdenticalPairs(numbers))
