@@ -1,5 +1,11 @@
-import Foundation
+//
+//  NetworkCalls.swift
+//  problem-solving-swift
+//
+//  Created by Avijeet on 09/03/24.
+//
 
+import Foundation
 // MARK: - Github user model
 
 struct GithubUser: Codable {
@@ -18,15 +24,15 @@ enum GHError: Error {
 
 func getUser() async throws -> GithubUser {
     let endpoint = "https://api.github.com/users/avijeetpandey"
-
+    
     guard let url = URL(string: endpoint) else { throw GHError.invalidUrl }
-
+    
     let (data, response) = try await URLSession.shared.data(from: url)
-
+    
     guard let response = response as? HTTPURLResponse, response.statusCode == 200 else {
         throw GHError.invalidResponse
     }
-
+    
     do {
         let decoder = JSONDecoder()
         decoder.keyDecodingStrategy = .convertFromSnakeCase
@@ -36,9 +42,3 @@ func getUser() async throws -> GithubUser {
     }
 }
 
-do {
-    let user = try await getUser()
-    print(user.bio)
-} catch {
-    print(error.localizedDescription)
-}
