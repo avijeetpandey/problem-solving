@@ -7,6 +7,6 @@
 
 import Foundation
 
-let numbers = [0,0,1,1,1,2,2,3,3,4]
+let numbers = [1,3,5,7,9]
 
-print(getConcatenation(numbers))
+minMaxSum(arr: numbers)
