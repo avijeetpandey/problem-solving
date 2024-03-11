@@ -7,6 +7,8 @@
 
 import Foundation
 
-let numbers = [1,3,5,7,9]
+var stack = Stack(array: ["one","two","three"])
 
-minMaxSum(arr: numbers)
+print(stack.elements)
+print(stack.pop())
+print(stack.elements)
