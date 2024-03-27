@@ -7,6 +7,3 @@
 
 import Foundation
 
-Log.error("This is a error")
-Log.info("This is a info")
-Log.warning("This is a warning")
