@@ -7,8 +7,6 @@
 
 import Foundation
 
-var stack = Stack(array: ["one","two","three"])
-
-print(stack.elements)
-print(stack.pop())
-print(stack.elements)
+Log.error("This is a error")
+Log.info("This is a info")
+Log.warning("This is a warning")

@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		DC2000A92B9F122700CF7DA4 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2000A82B9F122700CF7DA4 /* Queue.swift */; };
+		DC7591022BB485940077F260 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7591012BB485940077F260 /* Logger.swift */; };
+		DC7591042BB486B30077F260 /* LogLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7591032BB486B30077F260 /* LogLevel.swift */; };
+		DC7591062BB487660077F260 /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7591052BB487660077F260 /* Context.swift */; };
 		DC801B802B9CCE0900A0F56A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC801B7F2B9CCE0900A0F56A /* main.swift */; };
 		DC801B8D2B9CCF1600A0F56A /* NetworkCalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC801B8C2B9CCF1600A0F56A /* NetworkCalls.swift */; };
 		DC801B912B9CD1E500A0F56A /* linearSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC801B902B9CD1E500A0F56A /* linearSearch.swift */; };
@@ -35,6 +38,9 @@
 
 /* Begin PBXFileReference section */
 		DC2000A82B9F122700CF7DA4 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		DC7591012BB485940077F260 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		DC7591032BB486B30077F260 /* LogLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogLevel.swift; sourceTree = "<group>"; };
+		DC7591052BB487660077F260 /* Context.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Context.swift; sourceTree = "<group>"; };
 		DC801B7C2B9CCE0900A0F56A /* problem-solving-swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "problem-solving-swift"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC801B7F2B9CCE0900A0F56A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		DC801B8C2B9CCF1600A0F56A /* NetworkCalls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkCalls.swift; sourceTree = "<group>"; };
@@ -60,6 +66,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DC7591002BB485890077F260 /* logger */ = {
+			isa = PBXGroup;
+			children = (
+				DC7591012BB485940077F260 /* Logger.swift */,
+				DC7591032BB486B30077F260 /* LogLevel.swift */,
+				DC7591052BB487660077F260 /* Context.swift */,
+			);
+			path = logger;
+			sourceTree = "<group>";
+		};
 		DC801B732B9CCE0900A0F56A = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +95,7 @@
 		DC801B7E2B9CCE0900A0F56A /* problem-solving-swift */ = {
 			isa = PBXGroup;
 			children = (
+				DC7591002BB485890077F260 /* logger */,
 				DC801B8B2B9CCF0A00A0F56A /* swift */,
 				DC801B882B9CCE2600A0F56A /* leetcode */,
 				DC801B872B9CCE1F00A0F56A /* algorithms */,
@@ -188,13 +205,16 @@
 				DC801B972B9CD92B00A0F56A /* arrayConcatenation.swift in Sources */,
 				DC801B9D2B9DAFA100A0F56A /* Stack.swift in Sources */,
 				DC801B9B2B9D8F5500A0F56A /* minMaxSum.swift in Sources */,
+				DC7591062BB487660077F260 /* Context.swift in Sources */,
 				DC801B912B9CD1E500A0F56A /* linearSearch.swift in Sources */,
 				DC801B992B9CDAFA00A0F56A /* ErrorHandling.swift in Sources */,
 				DCACBF882BA97742008D4A1F /* TypeAlias.swift in Sources */,
 				DC2000A92B9F122700CF7DA4 /* Queue.swift in Sources */,
 				DC801B802B9CCE0900A0F56A /* main.swift in Sources */,
 				DC801B932B9CD4AB00A0F56A /* goodPairs.swift in Sources */,
+				DC7591022BB485940077F260 /* Logger.swift in Sources */,
 				DCACBF8A2BA97A3C008D4A1F /* AssociatedTypes.swift in Sources */,
+				DC7591042BB486B30077F260 /* LogLevel.swift in Sources */,
 				DC801B952B9CD77700A0F56A /* removeDuplicates.swift in Sources */,
 				DC801B8D2B9CCF1600A0F56A /* NetworkCalls.swift in Sources */,
 			);
