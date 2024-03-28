@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		DC2000A92B9F122700CF7DA4 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2000A82B9F122700CF7DA4 /* Queue.swift */; };
+		DC6C94A42BB5F7FA008717A7 /* AnalyticsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6C94A32BB5F7FA008717A7 /* AnalyticsProvider.swift */; };
+		DC6C94A62BB5F813008717A7 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6C94A52BB5F813008717A7 /* Event.swift */; };
+		DC6C94AA2BB5F924008717A7 /* AnalyticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6C94A92BB5F924008717A7 /* AnalyticsManager.swift */; };
+		DC6C94AC2BB5F9B9008717A7 /* AnalyticsError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6C94AB2BB5F9B9008717A7 /* AnalyticsError.swift */; };
+		DC6C94AE2BB5FA1F008717A7 /* CustomAnalyticsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6C94AD2BB5FA1F008717A7 /* CustomAnalyticsProvider.swift */; };
 		DC7591022BB485940077F260 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7591012BB485940077F260 /* Logger.swift */; };
 		DC7591042BB486B30077F260 /* LogLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7591032BB486B30077F260 /* LogLevel.swift */; };
 		DC7591062BB487660077F260 /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7591052BB487660077F260 /* Context.swift */; };
@@ -39,6 +44,11 @@
 
 /* Begin PBXFileReference section */
 		DC2000A82B9F122700CF7DA4 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		DC6C94A32BB5F7FA008717A7 /* AnalyticsProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsProvider.swift; sourceTree = "<group>"; };
+		DC6C94A52BB5F813008717A7 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		DC6C94A92BB5F924008717A7 /* AnalyticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsManager.swift; sourceTree = "<group>"; };
+		DC6C94AB2BB5F9B9008717A7 /* AnalyticsError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsError.swift; sourceTree = "<group>"; };
+		DC6C94AD2BB5FA1F008717A7 /* CustomAnalyticsProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnalyticsProvider.swift; sourceTree = "<group>"; };
 		DC7591012BB485940077F260 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 		DC7591032BB486B30077F260 /* LogLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogLevel.swift; sourceTree = "<group>"; };
 		DC7591052BB487660077F260 /* Context.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Context.swift; sourceTree = "<group>"; };
@@ -68,6 +78,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DC6C94A22BB5F7C9008717A7 /* analytics */ = {
+			isa = PBXGroup;
+			children = (
+				DC6C94A32BB5F7FA008717A7 /* AnalyticsProvider.swift */,
+				DC6C94A52BB5F813008717A7 /* Event.swift */,
+				DC6C94A92BB5F924008717A7 /* AnalyticsManager.swift */,
+				DC6C94AB2BB5F9B9008717A7 /* AnalyticsError.swift */,
+				DC6C94AD2BB5FA1F008717A7 /* CustomAnalyticsProvider.swift */,
+			);
+			path = analytics;
+			sourceTree = "<group>";
+		};
 		DC7591002BB485890077F260 /* logger */ = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +127,7 @@
 		DC801B7E2B9CCE0900A0F56A /* problem-solving-swift */ = {
 			isa = PBXGroup;
 			children = (
+				DC6C94A22BB5F7C9008717A7 /* analytics */,
 				DC7591072BB4AD280077F260 /* concurrency */,
 				DC7591002BB485890077F260 /* logger */,
 				DC801B8B2B9CCF0A00A0F56A /* swift */,
@@ -214,16 +237,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC7591092BB4AD3E0077F260 /* CustomThread.swift in Sources */,
+				DC6C94AE2BB5FA1F008717A7 /* CustomAnalyticsProvider.swift in Sources */,
 				DC801B972B9CD92B00A0F56A /* arrayConcatenation.swift in Sources */,
 				DC801B9D2B9DAFA100A0F56A /* Stack.swift in Sources */,
 				DC801B9B2B9D8F5500A0F56A /* minMaxSum.swift in Sources */,
 				DC7591062BB487660077F260 /* Context.swift in Sources */,
 				DC801B912B9CD1E500A0F56A /* linearSearch.swift in Sources */,
 				DC801B992B9CDAFA00A0F56A /* ErrorHandling.swift in Sources */,
+				DC6C94A42BB5F7FA008717A7 /* AnalyticsProvider.swift in Sources */,
 				DCACBF882BA97742008D4A1F /* TypeAlias.swift in Sources */,
+				DC6C94AC2BB5F9B9008717A7 /* AnalyticsError.swift in Sources */,
 				DC2000A92B9F122700CF7DA4 /* Queue.swift in Sources */,
+				DC6C94A62BB5F813008717A7 /* Event.swift in Sources */,
 				DC801B802B9CCE0900A0F56A /* main.swift in Sources */,
 				DC801B932B9CD4AB00A0F56A /* goodPairs.swift in Sources */,
+				DC6C94AA2BB5F924008717A7 /* AnalyticsManager.swift in Sources */,
 				DC7591022BB485940077F260 /* Logger.swift in Sources */,
 				DCACBF8A2BA97A3C008D4A1F /* AssociatedTypes.swift in Sources */,
 				DC7591042BB486B30077F260 /* LogLevel.swift in Sources */,
