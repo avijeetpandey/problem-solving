@@ -7,23 +7,13 @@
 
 import Foundation
 
-var counter = 1
+AnalyticsManager.shared.configure(provider: CustomAnalyticsProvider())
 
-
-DispatchQueue.main.async {
-    for i in 0...3 {
-        counter = i
-        print("\(counter)")
-    }
-}
-
-for i in 4...6 {
-    counter = i
-    print("\(counter)")
+do {
+    try AnalyticsManager.shared.track(event: .click("Wallet button clicked"),
+                                  metaData: ["id": 321])
+} catch(let error) {
+    print(error.localizedDescription)
 }
 
 
-DispatchQueue.main.async {
-    counter = 9
-    print(counter)
-}
