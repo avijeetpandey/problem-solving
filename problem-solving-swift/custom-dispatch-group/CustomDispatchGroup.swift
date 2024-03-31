@@ -22,6 +22,12 @@ class CustomDispatchGroup {
         
     }
     
+    convenience init() {
+        self.init(taskRegistrationManager: TaskRegistrationManager(),
+                  completionHandlerManager: CompletionHandlerManager(),
+                  waitManager: WaitTimeManager())
+    }
+    
     func enter() {
         taskRegistrationManager.enter()
     }
