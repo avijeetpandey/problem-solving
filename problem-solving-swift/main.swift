@@ -8,3 +8,6 @@
 import Foundation
 
 let reportViewModel = ReportViewModelWithFactory(_report: ReportFactory.create(type: .profit))
+
+
+configureDispatchGroup()
