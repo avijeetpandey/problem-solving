@@ -23,6 +23,13 @@
 		DC7E44602BB9546900D4A4C8 /* TaxReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7E445F2BB9546900D4A4C8 /* TaxReport.swift */; };
 		DC7E44622BB954A400D4A4C8 /* ProfitReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7E44612BB954A400D4A4C8 /* ProfitReport.swift */; };
 		DC7E44642BB9561800D4A4C8 /* ReportFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7E44632BB9561800D4A4C8 /* ReportFactory.swift */; };
+		DC7E44682BB95DB600D4A4C8 /* TaskRegistrationManageable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7E44672BB95DB600D4A4C8 /* TaskRegistrationManageable.swift */; };
+		DC7E446A2BB95DDD00D4A4C8 /* CompletionHandleable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7E44692BB95DDD00D4A4C8 /* CompletionHandleable.swift */; };
+		DC7E446C2BB95E2000D4A4C8 /* WaitTimeManageable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7E446B2BB95E2000D4A4C8 /* WaitTimeManageable.swift */; };
+		DC7E446E2BB95E6900D4A4C8 /* TaskRegistrationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7E446D2BB95E6900D4A4C8 /* TaskRegistrationManager.swift */; };
+		DC7E44702BB95F0500D4A4C8 /* CompletionHandlerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7E446F2BB95F0500D4A4C8 /* CompletionHandlerManager.swift */; };
+		DC7E44722BB9604D00D4A4C8 /* WaitTimeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7E44712BB9604D00D4A4C8 /* WaitTimeManager.swift */; };
+		DC7E44742BB9615800D4A4C8 /* CustomDispatchGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7E44732BB9615800D4A4C8 /* CustomDispatchGroup.swift */; };
 		DC801B802B9CCE0900A0F56A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC801B7F2B9CCE0900A0F56A /* main.swift */; };
 		DC801B8D2B9CCF1600A0F56A /* NetworkCalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC801B8C2B9CCF1600A0F56A /* NetworkCalls.swift */; };
 		DC801B912B9CD1E500A0F56A /* linearSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC801B902B9CD1E500A0F56A /* linearSearch.swift */; };
@@ -65,6 +72,13 @@
 		DC7E445F2BB9546900D4A4C8 /* TaxReport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxReport.swift; sourceTree = "<group>"; };
 		DC7E44612BB954A400D4A4C8 /* ProfitReport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfitReport.swift; sourceTree = "<group>"; };
 		DC7E44632BB9561800D4A4C8 /* ReportFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportFactory.swift; sourceTree = "<group>"; };
+		DC7E44672BB95DB600D4A4C8 /* TaskRegistrationManageable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRegistrationManageable.swift; sourceTree = "<group>"; };
+		DC7E44692BB95DDD00D4A4C8 /* CompletionHandleable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletionHandleable.swift; sourceTree = "<group>"; };
+		DC7E446B2BB95E2000D4A4C8 /* WaitTimeManageable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitTimeManageable.swift; sourceTree = "<group>"; };
+		DC7E446D2BB95E6900D4A4C8 /* TaskRegistrationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRegistrationManager.swift; sourceTree = "<group>"; };
+		DC7E446F2BB95F0500D4A4C8 /* CompletionHandlerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletionHandlerManager.swift; sourceTree = "<group>"; };
+		DC7E44712BB9604D00D4A4C8 /* WaitTimeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitTimeManager.swift; sourceTree = "<group>"; };
+		DC7E44732BB9615800D4A4C8 /* CustomDispatchGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDispatchGroup.swift; sourceTree = "<group>"; };
 		DC801B7C2B9CCE0900A0F56A /* problem-solving-swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "problem-solving-swift"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC801B7F2B9CCE0900A0F56A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		DC801B8C2B9CCF1600A0F56A /* NetworkCalls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkCalls.swift; sourceTree = "<group>"; };
@@ -141,6 +155,28 @@
 			path = "factory-pattern";
 			sourceTree = "<group>";
 		};
+		DC7E44652BB95D9300D4A4C8 /* custom-dispatch-group */ = {
+			isa = PBXGroup;
+			children = (
+				DC7E44662BB95DA300D4A4C8 /* protocols */,
+				DC7E446D2BB95E6900D4A4C8 /* TaskRegistrationManager.swift */,
+				DC7E446F2BB95F0500D4A4C8 /* CompletionHandlerManager.swift */,
+				DC7E44712BB9604D00D4A4C8 /* WaitTimeManager.swift */,
+				DC7E44732BB9615800D4A4C8 /* CustomDispatchGroup.swift */,
+			);
+			path = "custom-dispatch-group";
+			sourceTree = "<group>";
+		};
+		DC7E44662BB95DA300D4A4C8 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				DC7E44672BB95DB600D4A4C8 /* TaskRegistrationManageable.swift */,
+				DC7E44692BB95DDD00D4A4C8 /* CompletionHandleable.swift */,
+				DC7E446B2BB95E2000D4A4C8 /* WaitTimeManageable.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
 		DC801B732B9CCE0900A0F56A = {
 			isa = PBXGroup;
 			children = (
@@ -160,6 +196,7 @@
 		DC801B7E2B9CCE0900A0F56A /* problem-solving-swift */ = {
 			isa = PBXGroup;
 			children = (
+				DC7E44652BB95D9300D4A4C8 /* custom-dispatch-group */,
 				DC7E44562BB94E3B00D4A4C8 /* patterns */,
 				DC6C94A22BB5F7C9008717A7 /* analytics */,
 				DC7591072BB4AD280077F260 /* concurrency */,
@@ -270,28 +307,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC7E44742BB9615800D4A4C8 /* CustomDispatchGroup.swift in Sources */,
+				DC7E446C2BB95E2000D4A4C8 /* WaitTimeManageable.swift in Sources */,
 				DC7591092BB4AD3E0077F260 /* CustomThread.swift in Sources */,
 				DC7E445D2BB9543B00D4A4C8 /* ReportType.swift in Sources */,
 				DC6C94AE2BB5FA1F008717A7 /* CustomAnalyticsProvider.swift in Sources */,
 				DC801B972B9CD92B00A0F56A /* arrayConcatenation.swift in Sources */,
 				DC801B9D2B9DAFA100A0F56A /* Stack.swift in Sources */,
+				DC7E44722BB9604D00D4A4C8 /* WaitTimeManager.swift in Sources */,
 				DC801B9B2B9D8F5500A0F56A /* minMaxSum.swift in Sources */,
 				DC7591062BB487660077F260 /* Context.swift in Sources */,
 				DC7E44622BB954A400D4A4C8 /* ProfitReport.swift in Sources */,
 				DC7E445B2BB953A200D4A4C8 /* Report.swift in Sources */,
 				DC801B912B9CD1E500A0F56A /* linearSearch.swift in Sources */,
 				DC801B992B9CDAFA00A0F56A /* ErrorHandling.swift in Sources */,
+				DC7E44702BB95F0500D4A4C8 /* CompletionHandlerManager.swift in Sources */,
 				DC6C94A42BB5F7FA008717A7 /* AnalyticsProvider.swift in Sources */,
 				DCACBF882BA97742008D4A1F /* TypeAlias.swift in Sources */,
 				DC7E44642BB9561800D4A4C8 /* ReportFactory.swift in Sources */,
 				DC6C94AC2BB5F9B9008717A7 /* AnalyticsError.swift in Sources */,
 				DC2000A92B9F122700CF7DA4 /* Queue.swift in Sources */,
+				DC7E44682BB95DB600D4A4C8 /* TaskRegistrationManageable.swift in Sources */,
 				DC6C94A62BB5F813008717A7 /* Event.swift in Sources */,
 				DC7E44602BB9546900D4A4C8 /* TaxReport.swift in Sources */,
 				DC801B802B9CCE0900A0F56A /* main.swift in Sources */,
 				DC801B932B9CD4AB00A0F56A /* goodPairs.swift in Sources */,
 				DC6C94AA2BB5F924008717A7 /* AnalyticsManager.swift in Sources */,
 				DC7591022BB485940077F260 /* Logger.swift in Sources */,
+				DC7E446E2BB95E6900D4A4C8 /* TaskRegistrationManager.swift in Sources */,
+				DC7E446A2BB95DDD00D4A4C8 /* CompletionHandleable.swift in Sources */,
 				DCACBF8A2BA97A3C008D4A1F /* AssociatedTypes.swift in Sources */,
 				DC7E44592BB94E7C00D4A4C8 /* ReportViewModel.swift in Sources */,
 				DC7591042BB486B30077F260 /* LogLevel.swift in Sources */,
