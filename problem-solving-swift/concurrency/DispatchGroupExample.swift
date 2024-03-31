@@ -8,6 +8,7 @@
 import Foundation
 import Dispatch
 
+// Dispatch Framework provides a way to execute concurrent code on multi-core hardware systems, making code much faster and smoother
 func configureDispatchGroup() {
     let dispatchGroup = DispatchGroup()
     let concurrentQueue = DispatchQueue(label: "dispatch-queue", attributes: .concurrent)
