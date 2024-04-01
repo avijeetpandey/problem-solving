@@ -30,4 +30,6 @@ func sendRequest<T: Codable>(url: URL, completion: @escaping (Result<T, Error>) 
             completion(.failure(error))
         }
     }
+    
+    task.resume()
 }

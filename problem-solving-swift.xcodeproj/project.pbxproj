@@ -14,6 +14,9 @@
 		DC3F004D2BBAA565003EAB39 /* AdditionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3F004C2BBAA565003EAB39 /* AdditionProtocol.swift */; };
 		DC3F004F2BBAA582003EAB39 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3F004E2BBAA582003EAB39 /* Manager.swift */; };
 		DC3F00512BBAA5AC003EAB39 /* Developer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3F00502BBAA5AC003EAB39 /* Developer.swift */; };
+		DC3F00552BBAA74A003EAB39 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3F00542BBAA74A003EAB39 /* ImageDownloader.swift */; };
+		DC3F00572BBAA796003EAB39 /* ProfileImageViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3F00562BBAA796003EAB39 /* ProfileImageViewer.swift */; };
+		DC3F00592BBAA7C3003EAB39 /* ImageDownloadProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3F00582BBAA7C3003EAB39 /* ImageDownloadProtocol.swift */; };
 		DC6C94A42BB5F7FA008717A7 /* AnalyticsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6C94A32BB5F7FA008717A7 /* AnalyticsProvider.swift */; };
 		DC6C94A62BB5F813008717A7 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6C94A52BB5F813008717A7 /* Event.swift */; };
 		DC6C94AA2BB5F924008717A7 /* AnalyticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6C94A92BB5F924008717A7 /* AnalyticsManager.swift */; };
@@ -71,6 +74,9 @@
 		DC3F004C2BBAA565003EAB39 /* AdditionProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionProtocol.swift; sourceTree = "<group>"; };
 		DC3F004E2BBAA582003EAB39 /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
 		DC3F00502BBAA5AC003EAB39 /* Developer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Developer.swift; sourceTree = "<group>"; };
+		DC3F00542BBAA74A003EAB39 /* ImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
+		DC3F00562BBAA796003EAB39 /* ProfileImageViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImageViewer.swift; sourceTree = "<group>"; };
+		DC3F00582BBAA7C3003EAB39 /* ImageDownloadProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloadProtocol.swift; sourceTree = "<group>"; };
 		DC6C94A32BB5F7FA008717A7 /* AnalyticsProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsProvider.swift; sourceTree = "<group>"; };
 		DC6C94A52BB5F813008717A7 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		DC6C94A92BB5F924008717A7 /* AnalyticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsManager.swift; sourceTree = "<group>"; };
@@ -133,6 +139,7 @@
 		DC3F004B2BBAA54E003EAB39 /* delegate-pattern */ = {
 			isa = PBXGroup;
 			children = (
+				DC3F00532BBAA73C003EAB39 /* image-downloader-example */,
 				DC3F00522BBAA716003EAB39 /* manager-developer-example */,
 			);
 			path = "delegate-pattern";
@@ -146,6 +153,16 @@
 				DC3F00502BBAA5AC003EAB39 /* Developer.swift */,
 			);
 			path = "manager-developer-example";
+			sourceTree = "<group>";
+		};
+		DC3F00532BBAA73C003EAB39 /* image-downloader-example */ = {
+			isa = PBXGroup;
+			children = (
+				DC3F00542BBAA74A003EAB39 /* ImageDownloader.swift */,
+				DC3F00562BBAA796003EAB39 /* ProfileImageViewer.swift */,
+				DC3F00582BBAA7C3003EAB39 /* ImageDownloadProtocol.swift */,
+			);
+			path = "image-downloader-example";
 			sourceTree = "<group>";
 		};
 		DC6C94A22BB5F7C9008717A7 /* analytics */ = {
@@ -364,6 +381,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC7E44742BB9615800D4A4C8 /* CustomDispatchGroup.swift in Sources */,
+				DC3F00572BBAA796003EAB39 /* ProfileImageViewer.swift in Sources */,
 				DC7E446C2BB95E2000D4A4C8 /* WaitTimeManageable.swift in Sources */,
 				DC7591092BB4AD3E0077F260 /* CustomThread.swift in Sources */,
 				DC7E445D2BB9543B00D4A4C8 /* ReportType.swift in Sources */,
@@ -374,6 +392,7 @@
 				DC7E44722BB9604D00D4A4C8 /* WaitTimeManager.swift in Sources */,
 				DC3F000E2BB9BFCD003EAB39 /* testJsonParsing.swift in Sources */,
 				DC801B9B2B9D8F5500A0F56A /* minMaxSum.swift in Sources */,
+				DC3F00552BBAA74A003EAB39 /* ImageDownloader.swift in Sources */,
 				DC7591062BB487660077F260 /* Context.swift in Sources */,
 				DC7E44622BB954A400D4A4C8 /* ProfitReport.swift in Sources */,
 				DC7E445B2BB953A200D4A4C8 /* Report.swift in Sources */,
@@ -393,6 +412,7 @@
 				DC6C94A62BB5F813008717A7 /* Event.swift in Sources */,
 				DC7E44602BB9546900D4A4C8 /* TaxReport.swift in Sources */,
 				DC801B802B9CCE0900A0F56A /* main.swift in Sources */,
+				DC3F00592BBAA7C3003EAB39 /* ImageDownloadProtocol.swift in Sources */,
 				DC3F004F2BBAA582003EAB39 /* Manager.swift in Sources */,
 				DC801B932B9CD4AB00A0F56A /* goodPairs.swift in Sources */,
 				DC6C94AA2BB5F924008717A7 /* AnalyticsManager.swift in Sources */,

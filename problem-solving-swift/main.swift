@@ -7,7 +7,5 @@
 
 import Foundation
 
-//testJsonParsing()
+let profileImageViewer = ProfileImageViewer(_imageDownloader: ImageDownloader())
 
-let manager = Manager(_developer: Developer())
-manager.developer.addTwoNumbers(2, 3)
