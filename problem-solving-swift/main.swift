@@ -7,4 +7,7 @@
 
 import Foundation
 
-testJsonParsing()
+//testJsonParsing()
+
+let manager = Manager(_developer: Developer())
+manager.developer.addTwoNumbers(2, 3)

@@ -11,6 +11,9 @@
 		DC3F000A2BB9BD79003EAB39 /* JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3F00092BB9BD79003EAB39 /* JSONParser.swift */; };
 		DC3F000C2BB9BEE7003EAB39 /* JSONParsingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3F000B2BB9BEE7003EAB39 /* JSONParsingError.swift */; };
 		DC3F000E2BB9BFCD003EAB39 /* testJsonParsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3F000D2BB9BFCD003EAB39 /* testJsonParsing.swift */; };
+		DC3F004D2BBAA565003EAB39 /* AdditionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3F004C2BBAA565003EAB39 /* AdditionProtocol.swift */; };
+		DC3F004F2BBAA582003EAB39 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3F004E2BBAA582003EAB39 /* Manager.swift */; };
+		DC3F00512BBAA5AC003EAB39 /* Developer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3F00502BBAA5AC003EAB39 /* Developer.swift */; };
 		DC6C94A42BB5F7FA008717A7 /* AnalyticsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6C94A32BB5F7FA008717A7 /* AnalyticsProvider.swift */; };
 		DC6C94A62BB5F813008717A7 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6C94A52BB5F813008717A7 /* Event.swift */; };
 		DC6C94AA2BB5F924008717A7 /* AnalyticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6C94A92BB5F924008717A7 /* AnalyticsManager.swift */; };
@@ -65,6 +68,9 @@
 		DC3F00092BB9BD79003EAB39 /* JSONParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParser.swift; sourceTree = "<group>"; };
 		DC3F000B2BB9BEE7003EAB39 /* JSONParsingError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParsingError.swift; sourceTree = "<group>"; };
 		DC3F000D2BB9BFCD003EAB39 /* testJsonParsing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testJsonParsing.swift; sourceTree = "<group>"; };
+		DC3F004C2BBAA565003EAB39 /* AdditionProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionProtocol.swift; sourceTree = "<group>"; };
+		DC3F004E2BBAA582003EAB39 /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
+		DC3F00502BBAA5AC003EAB39 /* Developer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Developer.swift; sourceTree = "<group>"; };
 		DC6C94A32BB5F7FA008717A7 /* AnalyticsProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsProvider.swift; sourceTree = "<group>"; };
 		DC6C94A52BB5F813008717A7 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		DC6C94A92BB5F924008717A7 /* AnalyticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsManager.swift; sourceTree = "<group>"; };
@@ -122,6 +128,24 @@
 				DC3F000D2BB9BFCD003EAB39 /* testJsonParsing.swift */,
 			);
 			path = "json-parser";
+			sourceTree = "<group>";
+		};
+		DC3F004B2BBAA54E003EAB39 /* delegate-pattern */ = {
+			isa = PBXGroup;
+			children = (
+				DC3F00522BBAA716003EAB39 /* manager-developer-example */,
+			);
+			path = "delegate-pattern";
+			sourceTree = "<group>";
+		};
+		DC3F00522BBAA716003EAB39 /* manager-developer-example */ = {
+			isa = PBXGroup;
+			children = (
+				DC3F004C2BBAA565003EAB39 /* AdditionProtocol.swift */,
+				DC3F004E2BBAA582003EAB39 /* Manager.swift */,
+				DC3F00502BBAA5AC003EAB39 /* Developer.swift */,
+			);
+			path = "manager-developer-example";
 			sourceTree = "<group>";
 		};
 		DC6C94A22BB5F7C9008717A7 /* analytics */ = {
@@ -225,6 +249,7 @@
 		DC801B7E2B9CCE0900A0F56A /* problem-solving-swift */ = {
 			isa = PBXGroup;
 			children = (
+				DC3F004B2BBAA54E003EAB39 /* delegate-pattern */,
 				DC3F00082BB9BD69003EAB39 /* json-parser */,
 				DC7E44772BB9B03B00D4A4C8 /* api-calls */,
 				DC7E44652BB95D9300D4A4C8 /* custom-dispatch-group */,
@@ -344,6 +369,7 @@
 				DC7E445D2BB9543B00D4A4C8 /* ReportType.swift in Sources */,
 				DC6C94AE2BB5FA1F008717A7 /* CustomAnalyticsProvider.swift in Sources */,
 				DC801B972B9CD92B00A0F56A /* arrayConcatenation.swift in Sources */,
+				DC3F00512BBAA5AC003EAB39 /* Developer.swift in Sources */,
 				DC801B9D2B9DAFA100A0F56A /* Stack.swift in Sources */,
 				DC7E44722BB9604D00D4A4C8 /* WaitTimeManager.swift in Sources */,
 				DC3F000E2BB9BFCD003EAB39 /* testJsonParsing.swift in Sources */,
@@ -361,11 +387,13 @@
 				DCACBF882BA97742008D4A1F /* TypeAlias.swift in Sources */,
 				DC7E44642BB9561800D4A4C8 /* ReportFactory.swift in Sources */,
 				DC6C94AC2BB5F9B9008717A7 /* AnalyticsError.swift in Sources */,
+				DC3F004D2BBAA565003EAB39 /* AdditionProtocol.swift in Sources */,
 				DC2000A92B9F122700CF7DA4 /* Queue.swift in Sources */,
 				DC7E44682BB95DB600D4A4C8 /* TaskRegistrationManageable.swift in Sources */,
 				DC6C94A62BB5F813008717A7 /* Event.swift in Sources */,
 				DC7E44602BB9546900D4A4C8 /* TaxReport.swift in Sources */,
 				DC801B802B9CCE0900A0F56A /* main.swift in Sources */,
+				DC3F004F2BBAA582003EAB39 /* Manager.swift in Sources */,
 				DC801B932B9CD4AB00A0F56A /* goodPairs.swift in Sources */,
 				DC6C94AA2BB5F924008717A7 /* AnalyticsManager.swift in Sources */,
 				DC7591022BB485940077F260 /* Logger.swift in Sources */,
