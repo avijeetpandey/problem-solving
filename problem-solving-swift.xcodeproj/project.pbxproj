@@ -17,6 +17,9 @@
 		DC3F00552BBAA74A003EAB39 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3F00542BBAA74A003EAB39 /* ImageDownloader.swift */; };
 		DC3F00572BBAA796003EAB39 /* ProfileImageViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3F00562BBAA796003EAB39 /* ProfileImageViewer.swift */; };
 		DC3F00592BBAA7C3003EAB39 /* ImageDownloadProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3F00582BBAA7C3003EAB39 /* ImageDownloadProtocol.swift */; };
+		DC3F00B32BBB04F4003EAB39 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3F00B22BBB04F4003EAB39 /* Article.swift */; };
+		DC3F00B52BBB0531003EAB39 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3F00B42BBB0531003EAB39 /* Models.swift */; };
+		DC3F00B72BBB0782003EAB39 /* testJsonParsingFromFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3F00B62BBB0782003EAB39 /* testJsonParsingFromFile.swift */; };
 		DC6C94A42BB5F7FA008717A7 /* AnalyticsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6C94A32BB5F7FA008717A7 /* AnalyticsProvider.swift */; };
 		DC6C94A62BB5F813008717A7 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6C94A52BB5F813008717A7 /* Event.swift */; };
 		DC6C94AA2BB5F924008717A7 /* AnalyticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6C94A92BB5F924008717A7 /* AnalyticsManager.swift */; };
@@ -77,6 +80,10 @@
 		DC3F00542BBAA74A003EAB39 /* ImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
 		DC3F00562BBAA796003EAB39 /* ProfileImageViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImageViewer.swift; sourceTree = "<group>"; };
 		DC3F00582BBAA7C3003EAB39 /* ImageDownloadProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloadProtocol.swift; sourceTree = "<group>"; };
+		DC3F00B12BBB0456003EAB39 /* mock.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = mock.json; sourceTree = "<group>"; };
+		DC3F00B22BBB04F4003EAB39 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		DC3F00B42BBB0531003EAB39 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		DC3F00B62BBB0782003EAB39 /* testJsonParsingFromFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testJsonParsingFromFile.swift; sourceTree = "<group>"; };
 		DC6C94A32BB5F7FA008717A7 /* AnalyticsProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsProvider.swift; sourceTree = "<group>"; };
 		DC6C94A52BB5F813008717A7 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		DC6C94A92BB5F924008717A7 /* AnalyticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsManager.swift; sourceTree = "<group>"; };
@@ -163,6 +170,17 @@
 				DC3F00582BBAA7C3003EAB39 /* ImageDownloadProtocol.swift */,
 			);
 			path = "image-downloader-example";
+			sourceTree = "<group>";
+		};
+		DC3F00B02BBB0418003EAB39 /* codables-demo */ = {
+			isa = PBXGroup;
+			children = (
+				DC3F00B12BBB0456003EAB39 /* mock.json */,
+				DC3F00B22BBB04F4003EAB39 /* Article.swift */,
+				DC3F00B42BBB0531003EAB39 /* Models.swift */,
+				DC3F00B62BBB0782003EAB39 /* testJsonParsingFromFile.swift */,
+			);
+			path = "codables-demo";
 			sourceTree = "<group>";
 		};
 		DC6C94A22BB5F7C9008717A7 /* analytics */ = {
@@ -266,6 +284,7 @@
 		DC801B7E2B9CCE0900A0F56A /* problem-solving-swift */ = {
 			isa = PBXGroup;
 			children = (
+				DC3F00B02BBB0418003EAB39 /* codables-demo */,
 				DC3F004B2BBAA54E003EAB39 /* delegate-pattern */,
 				DC3F00082BB9BD69003EAB39 /* json-parser */,
 				DC7E44772BB9B03B00D4A4C8 /* api-calls */,
@@ -382,7 +401,9 @@
 			files = (
 				DC7E44742BB9615800D4A4C8 /* CustomDispatchGroup.swift in Sources */,
 				DC3F00572BBAA796003EAB39 /* ProfileImageViewer.swift in Sources */,
+				DC3F00B32BBB04F4003EAB39 /* Article.swift in Sources */,
 				DC7E446C2BB95E2000D4A4C8 /* WaitTimeManageable.swift in Sources */,
+				DC3F00B52BBB0531003EAB39 /* Models.swift in Sources */,
 				DC7591092BB4AD3E0077F260 /* CustomThread.swift in Sources */,
 				DC7E445D2BB9543B00D4A4C8 /* ReportType.swift in Sources */,
 				DC6C94AE2BB5FA1F008717A7 /* CustomAnalyticsProvider.swift in Sources */,
@@ -420,6 +441,7 @@
 				DC7E446E2BB95E6900D4A4C8 /* TaskRegistrationManager.swift in Sources */,
 				DC7E446A2BB95DDD00D4A4C8 /* CompletionHandleable.swift in Sources */,
 				DCACBF8A2BA97A3C008D4A1F /* AssociatedTypes.swift in Sources */,
+				DC3F00B72BBB0782003EAB39 /* testJsonParsingFromFile.swift in Sources */,
 				DC3F000A2BB9BD79003EAB39 /* JSONParser.swift in Sources */,
 				DC7E44592BB94E7C00D4A4C8 /* ReportViewModel.swift in Sources */,
 				DC7591042BB486B30077F260 /* LogLevel.swift in Sources */,

@@ -9,3 +9,5 @@ import Foundation
 
 let profileImageViewer = ProfileImageViewer(_imageDownloader: ImageDownloader())
 
+
+testJsonParsingFromFile()
