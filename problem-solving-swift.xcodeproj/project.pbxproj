@@ -20,6 +20,10 @@
 		DC3F00B32BBB04F4003EAB39 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3F00B22BBB04F4003EAB39 /* Article.swift */; };
 		DC3F00B52BBB0531003EAB39 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3F00B42BBB0531003EAB39 /* Models.swift */; };
 		DC3F00B72BBB0782003EAB39 /* testJsonParsingFromFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3F00B62BBB0782003EAB39 /* testJsonParsingFromFile.swift */; };
+		DC3F01132BBC0A3E003EAB39 /* Hamburger.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3F01122BBC0A3E003EAB39 /* Hamburger.swift */; };
+		DC3F01152BBC0AE9003EAB39 /* HamburgerBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3F01142BBC0AE9003EAB39 /* HamburgerBuilder.swift */; };
+		DC3F01172BBC0C1E003EAB39 /* BurgerShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3F01162BBC0C1E003EAB39 /* BurgerShop.swift */; };
+		DC67F3E32BBC9A50002D9643 /* divisible.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC67F3E22BBC9A50002D9643 /* divisible.swift */; };
 		DC6C94A42BB5F7FA008717A7 /* AnalyticsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6C94A32BB5F7FA008717A7 /* AnalyticsProvider.swift */; };
 		DC6C94A62BB5F813008717A7 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6C94A52BB5F813008717A7 /* Event.swift */; };
 		DC6C94AA2BB5F924008717A7 /* AnalyticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6C94A92BB5F924008717A7 /* AnalyticsManager.swift */; };
@@ -84,6 +88,10 @@
 		DC3F00B22BBB04F4003EAB39 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 		DC3F00B42BBB0531003EAB39 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		DC3F00B62BBB0782003EAB39 /* testJsonParsingFromFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testJsonParsingFromFile.swift; sourceTree = "<group>"; };
+		DC3F01122BBC0A3E003EAB39 /* Hamburger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hamburger.swift; sourceTree = "<group>"; };
+		DC3F01142BBC0AE9003EAB39 /* HamburgerBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HamburgerBuilder.swift; sourceTree = "<group>"; };
+		DC3F01162BBC0C1E003EAB39 /* BurgerShop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurgerShop.swift; sourceTree = "<group>"; };
+		DC67F3E22BBC9A50002D9643 /* divisible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = divisible.swift; sourceTree = "<group>"; };
 		DC6C94A32BB5F7FA008717A7 /* AnalyticsProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsProvider.swift; sourceTree = "<group>"; };
 		DC6C94A52BB5F813008717A7 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		DC6C94A92BB5F924008717A7 /* AnalyticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsManager.swift; sourceTree = "<group>"; };
@@ -181,6 +189,24 @@
 				DC3F00B62BBB0782003EAB39 /* testJsonParsingFromFile.swift */,
 			);
 			path = "codables-demo";
+			sourceTree = "<group>";
+		};
+		DC3F01112BBC09D2003EAB39 /* builder-pattern */ = {
+			isa = PBXGroup;
+			children = (
+				DC3F01122BBC0A3E003EAB39 /* Hamburger.swift */,
+				DC3F01142BBC0AE9003EAB39 /* HamburgerBuilder.swift */,
+				DC3F01162BBC0C1E003EAB39 /* BurgerShop.swift */,
+			);
+			path = "builder-pattern";
+			sourceTree = "<group>";
+		};
+		DC67F3E12BBC9A45002D9643 /* atcoder */ = {
+			isa = PBXGroup;
+			children = (
+				DC67F3E22BBC9A50002D9643 /* divisible.swift */,
+			);
+			path = atcoder;
 			sourceTree = "<group>";
 		};
 		DC6C94A22BB5F7C9008717A7 /* analytics */ = {
@@ -284,6 +310,8 @@
 		DC801B7E2B9CCE0900A0F56A /* problem-solving-swift */ = {
 			isa = PBXGroup;
 			children = (
+				DC67F3E12BBC9A45002D9643 /* atcoder */,
+				DC3F01112BBC09D2003EAB39 /* builder-pattern */,
 				DC3F00B02BBB0418003EAB39 /* codables-demo */,
 				DC3F004B2BBAA54E003EAB39 /* delegate-pattern */,
 				DC3F00082BB9BD69003EAB39 /* json-parser */,
@@ -412,6 +440,7 @@
 				DC801B9D2B9DAFA100A0F56A /* Stack.swift in Sources */,
 				DC7E44722BB9604D00D4A4C8 /* WaitTimeManager.swift in Sources */,
 				DC3F000E2BB9BFCD003EAB39 /* testJsonParsing.swift in Sources */,
+				DC67F3E32BBC9A50002D9643 /* divisible.swift in Sources */,
 				DC801B9B2B9D8F5500A0F56A /* minMaxSum.swift in Sources */,
 				DC3F00552BBAA74A003EAB39 /* ImageDownloader.swift in Sources */,
 				DC7591062BB487660077F260 /* Context.swift in Sources */,
@@ -440,13 +469,16 @@
 				DC7591022BB485940077F260 /* Logger.swift in Sources */,
 				DC7E446E2BB95E6900D4A4C8 /* TaskRegistrationManager.swift in Sources */,
 				DC7E446A2BB95DDD00D4A4C8 /* CompletionHandleable.swift in Sources */,
+				DC3F01132BBC0A3E003EAB39 /* Hamburger.swift in Sources */,
 				DCACBF8A2BA97A3C008D4A1F /* AssociatedTypes.swift in Sources */,
+				DC3F01152BBC0AE9003EAB39 /* HamburgerBuilder.swift in Sources */,
 				DC3F00B72BBB0782003EAB39 /* testJsonParsingFromFile.swift in Sources */,
 				DC3F000A2BB9BD79003EAB39 /* JSONParser.swift in Sources */,
 				DC7E44592BB94E7C00D4A4C8 /* ReportViewModel.swift in Sources */,
 				DC7591042BB486B30077F260 /* LogLevel.swift in Sources */,
 				DC801B952B9CD77700A0F56A /* removeDuplicates.swift in Sources */,
 				DC801B8D2B9CCF1600A0F56A /* NetworkCalls.swift in Sources */,
+				DC3F01172BBC0C1E003EAB39 /* BurgerShop.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
