@@ -7,6 +7,8 @@
 
 import Foundation
 
-let maxSum = KadaneAlgorithm.maxSubArrayForEach([-2,1,-3,4,-1,2,1,-5,4])
+var arr = [1,2,3,4]
 
-print(maxSum)
+let result = ContainsDuplicate.findDuplicates(&arr)
+
+print(result)

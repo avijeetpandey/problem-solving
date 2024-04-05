@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		DC2000A92B9F122700CF7DA4 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2000A82B9F122700CF7DA4 /* Queue.swift */; };
 		DC21DF452BC044DB002743C4 /* kadanes.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC21DF442BC044DB002743C4 /* kadanes.swift */; };
+		DC21DF472BC0493B002743C4 /* stocksBuyAndSell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC21DF462BC0493B002743C4 /* stocksBuyAndSell.swift */; };
+		DC21DF492BC05255002743C4 /* containsDuplicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC21DF482BC05255002743C4 /* containsDuplicate.swift */; };
 		DC3F000A2BB9BD79003EAB39 /* JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3F00092BB9BD79003EAB39 /* JSONParser.swift */; };
 		DC3F000C2BB9BEE7003EAB39 /* JSONParsingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3F000B2BB9BEE7003EAB39 /* JSONParsingError.swift */; };
 		DC3F000E2BB9BFCD003EAB39 /* testJsonParsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3F000D2BB9BFCD003EAB39 /* testJsonParsing.swift */; };
@@ -78,6 +80,8 @@
 /* Begin PBXFileReference section */
 		DC2000A82B9F122700CF7DA4 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		DC21DF442BC044DB002743C4 /* kadanes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kadanes.swift; sourceTree = "<group>"; };
+		DC21DF462BC0493B002743C4 /* stocksBuyAndSell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stocksBuyAndSell.swift; sourceTree = "<group>"; };
+		DC21DF482BC05255002743C4 /* containsDuplicate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = containsDuplicate.swift; sourceTree = "<group>"; };
 		DC3F00092BB9BD79003EAB39 /* JSONParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParser.swift; sourceTree = "<group>"; };
 		DC3F000B2BB9BEE7003EAB39 /* JSONParsingError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParsingError.swift; sourceTree = "<group>"; };
 		DC3F000D2BB9BFCD003EAB39 /* testJsonParsing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testJsonParsing.swift; sourceTree = "<group>"; };
@@ -359,6 +363,8 @@
 				DC801B942B9CD77700A0F56A /* removeDuplicates.swift */,
 				DC801B962B9CD92B00A0F56A /* arrayConcatenation.swift */,
 				DC801B9A2B9D8F5500A0F56A /* minMaxSum.swift */,
+				DC21DF462BC0493B002743C4 /* stocksBuyAndSell.swift */,
+				DC21DF482BC05255002743C4 /* containsDuplicate.swift */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
@@ -454,6 +460,7 @@
 				DC7E44622BB954A400D4A4C8 /* ProfitReport.swift in Sources */,
 				DC7E445B2BB953A200D4A4C8 /* Report.swift in Sources */,
 				DC801B912B9CD1E500A0F56A /* linearSearch.swift in Sources */,
+				DC21DF492BC05255002743C4 /* containsDuplicate.swift in Sources */,
 				DC7E44792BB9B04700D4A4C8 /* StarWarApi.swift in Sources */,
 				DC801B992B9CDAFA00A0F56A /* ErrorHandling.swift in Sources */,
 				DC7E44702BB95F0500D4A4C8 /* CompletionHandlerManager.swift in Sources */,
@@ -476,6 +483,7 @@
 				DC6C94AA2BB5F924008717A7 /* AnalyticsManager.swift in Sources */,
 				DC7591022BB485940077F260 /* Logger.swift in Sources */,
 				DC7E446E2BB95E6900D4A4C8 /* TaskRegistrationManager.swift in Sources */,
+				DC21DF472BC0493B002743C4 /* stocksBuyAndSell.swift in Sources */,
 				DC7E446A2BB95DDD00D4A4C8 /* CompletionHandleable.swift in Sources */,
 				DC3F01132BBC0A3E003EAB39 /* Hamburger.swift in Sources */,
 				DCACBF8A2BA97A3C008D4A1F /* AssociatedTypes.swift in Sources */,
