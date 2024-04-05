@@ -75,3 +75,16 @@ func filterTest() {
     
     print(evenNumbers)
 }
+
+// MARK: - demonstrates the usage of string
+func useString() {
+    let string = "teststring"
+    
+    let index =  string.index(string.startIndex, offsetBy: 7)
+    print(index)
+    print(string[index])
+    
+    for char in string {
+        print(" ")
+    }
+}

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DC2000A92B9F122700CF7DA4 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2000A82B9F122700CF7DA4 /* Queue.swift */; };
+		DC21DF452BC044DB002743C4 /* kadanes.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC21DF442BC044DB002743C4 /* kadanes.swift */; };
 		DC3F000A2BB9BD79003EAB39 /* JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3F00092BB9BD79003EAB39 /* JSONParser.swift */; };
 		DC3F000C2BB9BEE7003EAB39 /* JSONParsingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3F000B2BB9BEE7003EAB39 /* JSONParsingError.swift */; };
 		DC3F000E2BB9BFCD003EAB39 /* testJsonParsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3F000D2BB9BFCD003EAB39 /* testJsonParsing.swift */; };
@@ -76,6 +77,7 @@
 
 /* Begin PBXFileReference section */
 		DC2000A82B9F122700CF7DA4 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		DC21DF442BC044DB002743C4 /* kadanes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kadanes.swift; sourceTree = "<group>"; };
 		DC3F00092BB9BD79003EAB39 /* JSONParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParser.swift; sourceTree = "<group>"; };
 		DC3F000B2BB9BEE7003EAB39 /* JSONParsingError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParsingError.swift; sourceTree = "<group>"; };
 		DC3F000D2BB9BFCD003EAB39 /* testJsonParsing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testJsonParsing.swift; sourceTree = "<group>"; };
@@ -345,6 +347,7 @@
 			isa = PBXGroup;
 			children = (
 				DC801B902B9CD1E500A0F56A /* linearSearch.swift */,
+				DC21DF442BC044DB002743C4 /* kadanes.swift */,
 			);
 			path = algorithms;
 			sourceTree = "<group>";
@@ -431,6 +434,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC7E44742BB9615800D4A4C8 /* CustomDispatchGroup.swift in Sources */,
+				DC21DF452BC044DB002743C4 /* kadanes.swift in Sources */,
 				DC3F00572BBAA796003EAB39 /* ProfileImageViewer.swift in Sources */,
 				DC3F00B32BBB04F4003EAB39 /* Article.swift in Sources */,
 				DC7E446C2BB95E2000D4A4C8 /* WaitTimeManageable.swift in Sources */,
