@@ -7,6 +7,6 @@
 
 import Foundation
 
-let res = TwoSum.findIndicesMap([3,3], 6)
+let res = BinarySearch.search([2,5,6,7,8,9], key: 9)
 
 print(res)
