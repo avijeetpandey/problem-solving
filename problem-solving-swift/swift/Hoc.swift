@@ -63,3 +63,15 @@ func reduceTest() {
     
     print(sum)
 }
+
+
+// MARK: - filter demonstration
+func filterTest() {
+    let numbers: [Int] = [1,2,3,4,5,6]
+    
+    let evenNumbers = numbers.filter { number in
+        return number % 2 == 0
+    }
+    
+    print(evenNumbers)
+}
