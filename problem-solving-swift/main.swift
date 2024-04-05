@@ -7,6 +7,6 @@
 
 import Foundation
 
-let res = Anagram.isValidAnagramHashMap("rat", "car")
+let res = TwoSum.findIndicesMap([3,3], 6)
 
 print(res)
