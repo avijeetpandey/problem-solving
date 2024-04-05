@@ -26,4 +26,25 @@ class KadaneAlgorithm {
         
         return maxSum
     }
+    
+    
+    // for each version
+    static func maxSubArrayForEach(_ nums: [Int]) -> Int {
+        var sumSoFar: Int = 0
+        var maxSum: Int = Int.min
+        
+        nums.forEach { number in
+            sumSoFar += number
+            
+            if sumSoFar > maxSum {
+                maxSum = sumSoFar
+            }
+            
+            if sumSoFar < 0 {
+                sumSoFar = 0
+            }
+        }
+        
+        return maxSum
+    }
 }

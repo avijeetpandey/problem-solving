@@ -7,6 +7,6 @@
 
 import Foundation
 
-let maxSum = KadaneAlgorithm.maxSubArray([-2,1,-3,4,-1,2,1,-5,4])
+let maxSum = KadaneAlgorithm.maxSubArrayForEach([-2,1,-3,4,-1,2,1,-5,4])
 
 print(maxSum)
