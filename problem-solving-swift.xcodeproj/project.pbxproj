@@ -57,6 +57,7 @@
 		DC801B992B9CDAFA00A0F56A /* ErrorHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC801B982B9CDAFA00A0F56A /* ErrorHandling.swift */; };
 		DC801B9B2B9D8F5500A0F56A /* minMaxSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC801B9A2B9D8F5500A0F56A /* minMaxSum.swift */; };
 		DC801B9D2B9DAFA100A0F56A /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC801B9C2B9DAFA100A0F56A /* Stack.swift */; };
+		DC8B04542BBFEC2A00DCFD1A /* Hoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8B04532BBFEC2A00DCFD1A /* Hoc.swift */; };
 		DCACBF882BA97742008D4A1F /* TypeAlias.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCACBF872BA97742008D4A1F /* TypeAlias.swift */; };
 		DCACBF8A2BA97A3C008D4A1F /* AssociatedTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCACBF892BA97A3C008D4A1F /* AssociatedTypes.swift */; };
 /* End PBXBuildFile section */
@@ -126,6 +127,7 @@
 		DC801B982B9CDAFA00A0F56A /* ErrorHandling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandling.swift; sourceTree = "<group>"; };
 		DC801B9A2B9D8F5500A0F56A /* minMaxSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = minMaxSum.swift; sourceTree = "<group>"; };
 		DC801B9C2B9DAFA100A0F56A /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		DC8B04532BBFEC2A00DCFD1A /* Hoc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hoc.swift; sourceTree = "<group>"; };
 		DCACBF872BA97742008D4A1F /* TypeAlias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeAlias.swift; sourceTree = "<group>"; };
 		DCACBF892BA97A3C008D4A1F /* AssociatedTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssociatedTypes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -365,6 +367,7 @@
 				DC801B982B9CDAFA00A0F56A /* ErrorHandling.swift */,
 				DCACBF872BA97742008D4A1F /* TypeAlias.swift */,
 				DCACBF892BA97A3C008D4A1F /* AssociatedTypes.swift */,
+				DC8B04532BBFEC2A00DCFD1A /* Hoc.swift */,
 			);
 			path = swift;
 			sourceTree = "<group>";
@@ -453,6 +456,7 @@
 				DC7E44762BB9AB2000D4A4C8 /* DispatchGroupExample.swift in Sources */,
 				DC3F000C2BB9BEE7003EAB39 /* JSONParsingError.swift in Sources */,
 				DC6C94A42BB5F7FA008717A7 /* AnalyticsProvider.swift in Sources */,
+				DC8B04542BBFEC2A00DCFD1A /* Hoc.swift in Sources */,
 				DCACBF882BA97742008D4A1F /* TypeAlias.swift in Sources */,
 				DC7E44642BB9561800D4A4C8 /* ReportFactory.swift in Sources */,
 				DC6C94AC2BB5F9B9008717A7 /* AnalyticsError.swift in Sources */,
