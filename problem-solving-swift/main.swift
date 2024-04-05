@@ -7,8 +7,6 @@
 
 import Foundation
 
-var arr = [1,2,3,4]
+let res = Anagram.isValidAnagramHashMap("rat", "car")
 
-let result = ContainsDuplicate.findDuplicates(&arr)
-
-print(result)
+print(res)
