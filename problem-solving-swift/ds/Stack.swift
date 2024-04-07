@@ -7,35 +7,55 @@
 
 import Foundation
 
-// MARK: - Stack
-public struct Stack<T> {
-    fileprivate var array = [T]()
+/**
+ A stack contains the following
+    - push ( appends element to the stack)
+    - pop ( removes the top element from the stack )
+    - peek ( gets the element at the top )
+    - count ( gets the size of the stack )
+    - printStack( prints the elements of the stack )
+ */
+
+protocol Stackable {
+    associatedtype Item
+    var stack: [Item] { get set }
+    var count: Int { get }
+    func push(_ element: Item)
+    func pop() -> Item
+    func peek() -> Item
+    func printStack()
+}
+
+extension Stackable {
+    func printStack() {
+        stack.forEach { item in
+            print(item, separator: " ")
+        }
+    }
+}
+
+class Stack<T>: Stackable {
+    internal var stack = [T]()
+    private var top: Int = 0
     
-    public var count: Int {
-        return array.count
+    var count: Int {
+        stack.count
     }
     
-    public var isEmpty: Bool {
-        return array.isEmpty
+    // MARK: - push(_ element: T)
+    func push(_ element: T) {
+        stack.append(element)
+        top += 1
     }
     
-    public var elements: [T] {
-        return array
+    // MARK: - pop() -> T?
+    func pop() -> T {
+        top -= 1
+        return stack.removeLast()
     }
     
-    public mutating func push(_ element: T) {
-        array.append(element)
-    }
-    
-    public mutating func pop() -> T? {
-        return array.popLast()
-    }
-    
-    public var top: T? {
-        return array.last
-    }
-    
-    init(array: [T] = [T]()) {
-        self.array = array
+    // MARK: - peek
+    func peek() -> T {
+        return stack[top-1]
     }
 }
