@@ -7,39 +7,51 @@
 
 import Foundation
 
-// MARK: - Queue
-public struct Queue<T> {
-    fileprivate var array = [T]()
-    
-    public var isEmpty: Bool {
-        return array.isEmpty
-    }
-    
-    public var elements: [T] {
-        return array
-    }
-    
-    public var count: Int {
-        return array.count
-    }
-    
-    public var front: T? {
-        return array.first
-    }
-    
-    public var rear: T? {
-        return array.last
-    }
-    
-    public mutating func enqueue(_ element: T) {
-        array.append(element)
-    }
-    
-    public mutating func dequeue() -> T? {
-        if array.isEmpty {
-            return nil
-        } else {
-            return array.removeFirst()
+// MARK: - Queueable
+
+protocol Queueable {
+    associatedtype Item
+    var queue: [Item] { get set }
+    var rear: Item? { get }
+    var front: Item? { get }
+    var count: Int { get }
+    func enqueue(_ element: Item)
+    func dequeue() -> Item?
+    func printQueue()
+}
+
+extension Queueable {
+    func printQueue() {
+        queue.forEach { element in
+            print(element, separator: " ")
         }
+    }
+}
+
+class Queue<T>: Queueable {
+    internal var queue = [T]()
+    
+    var rear: T? {
+        queue.last
+    }
+    
+    var front: T? {
+        queue.first
+    }
+    
+    var count: Int {
+        queue.count
+    }
+    
+    func enqueue(_ element: T) {
+        queue.append(element)
+    }
+    
+    func dequeue() -> T? {
+        if count == 0 {
+            return nil
+        }
+        
+        return queue.removeFirst()
     }
 }
