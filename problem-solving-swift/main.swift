@@ -7,6 +7,6 @@
 
 import Foundation
 
-let res = BinarySearch.search([2,5,6,7,8,9], key: 9)
+let res = FrequentElements.topKFrequent([1,1,1,2,2,3], 2)
 
 print(res)
