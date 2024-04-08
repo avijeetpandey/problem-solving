@@ -33,6 +33,18 @@ class LinkedList<T> {
         return currentNode
     }
     
+    var count: Int {
+        var currentNode = head
+        var c = 0
+        
+        while currentNode != nil {
+            c += 1
+            currentNode = currentNode?.next
+        }
+        
+        return c
+    }
+    
     func append(_ element: T) {
         let newNode = Node(data: element)
         if let lastNode = last {
@@ -40,6 +52,23 @@ class LinkedList<T> {
         } else {
             head = newNode
         }
+    }
+    
+    func nodeAt(_ index: Int) -> Node<T>? {
+        if index > count && index >= 0 { return nil }
+        var c = 0
+        var currentNode = head
+        while currentNode != nil {
+            if c == index {
+                break
+            }
+            
+            currentNode = currentNode?.next
+            
+            c += 1
+        }
+        
+        return currentNode
     }
     
     func printList() {
