@@ -7,6 +7,8 @@
 
 import Foundation
 
-let number = MajorityElement.find([3,2,3])
+var numbers = [2,2,2,0,2,1,1,0,0]
 
-print(number)
+SortColors.sort(&numbers)
+
+print(numbers)

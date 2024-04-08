@@ -69,6 +69,7 @@
 		DCACBF8A2BA97A3C008D4A1F /* AssociatedTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCACBF892BA97A3C008D4A1F /* AssociatedTypes.swift */; };
 		DCE93A212BC437AD00B1474C /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE93A202BC437AD00B1474C /* LinkedList.swift */; };
 		DCE93A232BC461CA00B1474C /* majorityElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE93A222BC461CA00B1474C /* majorityElement.swift */; };
+		DCE93A252BC4652500B1474C /* sortColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE93A242BC4652500B1474C /* sortColors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -148,6 +149,7 @@
 		DCACBF892BA97A3C008D4A1F /* AssociatedTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssociatedTypes.swift; sourceTree = "<group>"; };
 		DCE93A202BC437AD00B1474C /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
 		DCE93A222BC461CA00B1474C /* majorityElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = majorityElement.swift; sourceTree = "<group>"; };
+		DCE93A242BC4652500B1474C /* sortColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sortColors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -383,6 +385,7 @@
 				DC21DF4C2BC05F86002743C4 /* twoSum.swift */,
 				DC21DF502BC12A42002743C4 /* topElement.swift */,
 				DCE93A222BC461CA00B1474C /* majorityElement.swift */,
+				DCE93A242BC4652500B1474C /* sortColors.swift */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
@@ -492,6 +495,7 @@
 				DCACBF882BA97742008D4A1F /* TypeAlias.swift in Sources */,
 				DC7E44642BB9561800D4A4C8 /* ReportFactory.swift in Sources */,
 				DC6C94AC2BB5F9B9008717A7 /* AnalyticsError.swift in Sources */,
+				DCE93A252BC4652500B1474C /* sortColors.swift in Sources */,
 				DC3F004D2BBAA565003EAB39 /* AdditionProtocol.swift in Sources */,
 				DC2000A92B9F122700CF7DA4 /* Queue.swift in Sources */,
 				DC7E44682BB95DB600D4A4C8 /* TaskRegistrationManageable.swift in Sources */,
