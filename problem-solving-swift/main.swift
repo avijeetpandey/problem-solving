@@ -7,7 +7,10 @@
 
 import Foundation
 
-var matrix = [[1,2,3],[4,5,6],[7,8,9]]
+var one = [1,2,3,0,0,0]
+var two = [2,5,6]
 
-RotateMatrix.rotateBruteForce(&matrix)
+MergeSortedArray.merge(&one, 3, two, 3)
 
+
+print(one)
