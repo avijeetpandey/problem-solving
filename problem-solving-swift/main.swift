@@ -7,8 +7,8 @@
 
 import Foundation
 
-var numbers = [2,2,2,0,2,1,1,0,0]
+var matrix = [[1,1,1],[1,0,1],[1,1,1]]
 
-SortColors.sort(&numbers)
+SetMatrixZeroes.setZeroesWithSet(&matrix)
 
-print(numbers)
+print(matrix)

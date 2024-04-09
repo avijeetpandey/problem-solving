@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC14EFD52BC566A100586FE8 /* setMatrixZero.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC14EFD42BC566A100586FE8 /* setMatrixZero.swift */; };
 		DC2000A92B9F122700CF7DA4 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2000A82B9F122700CF7DA4 /* Queue.swift */; };
 		DC21DF452BC044DB002743C4 /* kadanes.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC21DF442BC044DB002743C4 /* kadanes.swift */; };
 		DC21DF472BC0493B002743C4 /* stocksBuyAndSell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC21DF462BC0493B002743C4 /* stocksBuyAndSell.swift */; };
@@ -85,6 +86,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DC14EFD42BC566A100586FE8 /* setMatrixZero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = setMatrixZero.swift; sourceTree = "<group>"; };
 		DC2000A82B9F122700CF7DA4 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		DC21DF442BC044DB002743C4 /* kadanes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kadanes.swift; sourceTree = "<group>"; };
 		DC21DF462BC0493B002743C4 /* stocksBuyAndSell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stocksBuyAndSell.swift; sourceTree = "<group>"; };
@@ -386,6 +388,7 @@
 				DC21DF502BC12A42002743C4 /* topElement.swift */,
 				DCE93A222BC461CA00B1474C /* majorityElement.swift */,
 				DCE93A242BC4652500B1474C /* sortColors.swift */,
+				DC14EFD42BC566A100586FE8 /* setMatrixZero.swift */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
@@ -475,6 +478,7 @@
 				DC3F00512BBAA5AC003EAB39 /* Developer.swift in Sources */,
 				DC801B9D2B9DAFA100A0F56A /* Stack.swift in Sources */,
 				DC7E44722BB9604D00D4A4C8 /* WaitTimeManager.swift in Sources */,
+				DC14EFD52BC566A100586FE8 /* setMatrixZero.swift in Sources */,
 				DC3F000E2BB9BFCD003EAB39 /* testJsonParsing.swift in Sources */,
 				DC67F3E32BBC9A50002D9643 /* divisible.swift in Sources */,
 				DC801B9B2B9D8F5500A0F56A /* minMaxSum.swift in Sources */,
