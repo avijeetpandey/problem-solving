@@ -7,6 +7,6 @@
 
 import Foundation
 
-let result = MissingAndRepeating.find([3,1,2,5,3])
+let result = FindDuplicate.find([1,3,4,2,2])
 
 print(result)
