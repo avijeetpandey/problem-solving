@@ -7,8 +7,6 @@
 
 import Foundation
 
-var matrix = [[1,1,1],[1,0,1],[1,1,1]]
+let result = MissingAndRepeating.find([3,1,2,5,3])
 
-SetMatrixZeroes.setZeroesWithSet(&matrix)
-
-print(matrix)
+print(result)

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DC14EFD52BC566A100586FE8 /* setMatrixZero.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC14EFD42BC566A100586FE8 /* setMatrixZero.swift */; };
+		DC14EFD72BC57C4600586FE8 /* missingAndRepeating.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC14EFD62BC57C4600586FE8 /* missingAndRepeating.swift */; };
 		DC2000A92B9F122700CF7DA4 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2000A82B9F122700CF7DA4 /* Queue.swift */; };
 		DC21DF452BC044DB002743C4 /* kadanes.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC21DF442BC044DB002743C4 /* kadanes.swift */; };
 		DC21DF472BC0493B002743C4 /* stocksBuyAndSell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC21DF462BC0493B002743C4 /* stocksBuyAndSell.swift */; };
@@ -87,6 +88,7 @@
 
 /* Begin PBXFileReference section */
 		DC14EFD42BC566A100586FE8 /* setMatrixZero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = setMatrixZero.swift; sourceTree = "<group>"; };
+		DC14EFD62BC57C4600586FE8 /* missingAndRepeating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = missingAndRepeating.swift; sourceTree = "<group>"; };
 		DC2000A82B9F122700CF7DA4 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		DC21DF442BC044DB002743C4 /* kadanes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kadanes.swift; sourceTree = "<group>"; };
 		DC21DF462BC0493B002743C4 /* stocksBuyAndSell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stocksBuyAndSell.swift; sourceTree = "<group>"; };
@@ -389,6 +391,7 @@
 				DCE93A222BC461CA00B1474C /* majorityElement.swift */,
 				DCE93A242BC4652500B1474C /* sortColors.swift */,
 				DC14EFD42BC566A100586FE8 /* setMatrixZero.swift */,
+				DC14EFD62BC57C4600586FE8 /* missingAndRepeating.swift */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
@@ -523,6 +526,7 @@
 				DC3F000A2BB9BD79003EAB39 /* JSONParser.swift in Sources */,
 				DC7E44592BB94E7C00D4A4C8 /* ReportViewModel.swift in Sources */,
 				DC7591042BB486B30077F260 /* LogLevel.swift in Sources */,
+				DC14EFD72BC57C4600586FE8 /* missingAndRepeating.swift in Sources */,
 				DC801B952B9CD77700A0F56A /* removeDuplicates.swift in Sources */,
 				DCE93A232BC461CA00B1474C /* majorityElement.swift in Sources */,
 				DC801B8D2B9CCF1600A0F56A /* NetworkCalls.swift in Sources */,
