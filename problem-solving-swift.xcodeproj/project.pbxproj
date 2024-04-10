@@ -31,6 +31,7 @@
 		DC2B062C2BC7117100B585FA /* reverseLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2B062B2BC7117100B585FA /* reverseLinkedList.swift */; };
 		DC2B062E2BC7127000B585FA /* addNumbersAsLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2B062D2BC7127000B585FA /* addNumbersAsLinkedList.swift */; };
 		DC2B06302BC7191E00B585FA /* cycleInLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2B062F2BC7191E00B585FA /* cycleInLinkedList.swift */; };
+		DC2B06322BC71CAA00B585FA /* detectStartingOfLoopLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2B06312BC71CAA00B585FA /* detectStartingOfLoopLinkedList.swift */; };
 		DC3F000A2BB9BD79003EAB39 /* JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3F00092BB9BD79003EAB39 /* JSONParser.swift */; };
 		DC3F000C2BB9BEE7003EAB39 /* JSONParsingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3F000B2BB9BEE7003EAB39 /* JSONParsingError.swift */; };
 		DC3F000E2BB9BFCD003EAB39 /* testJsonParsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3F000D2BB9BFCD003EAB39 /* testJsonParsing.swift */; };
@@ -125,6 +126,7 @@
 		DC2B062B2BC7117100B585FA /* reverseLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reverseLinkedList.swift; sourceTree = "<group>"; };
 		DC2B062D2BC7127000B585FA /* addNumbersAsLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addNumbersAsLinkedList.swift; sourceTree = "<group>"; };
 		DC2B062F2BC7191E00B585FA /* cycleInLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cycleInLinkedList.swift; sourceTree = "<group>"; };
+		DC2B06312BC71CAA00B585FA /* detectStartingOfLoopLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detectStartingOfLoopLinkedList.swift; sourceTree = "<group>"; };
 		DC3F00092BB9BD79003EAB39 /* JSONParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParser.swift; sourceTree = "<group>"; };
 		DC3F000B2BB9BEE7003EAB39 /* JSONParsingError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParsingError.swift; sourceTree = "<group>"; };
 		DC3F000D2BB9BFCD003EAB39 /* testJsonParsing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testJsonParsing.swift; sourceTree = "<group>"; };
@@ -434,6 +436,7 @@
 				DC2B062B2BC7117100B585FA /* reverseLinkedList.swift */,
 				DC2B062D2BC7127000B585FA /* addNumbersAsLinkedList.swift */,
 				DC2B062F2BC7191E00B585FA /* cycleInLinkedList.swift */,
+				DC2B06312BC71CAA00B585FA /* detectStartingOfLoopLinkedList.swift */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
@@ -514,6 +517,7 @@
 				DC3F00572BBAA796003EAB39 /* ProfileImageViewer.swift in Sources */,
 				DC21DF512BC12A42002743C4 /* topElement.swift in Sources */,
 				DC3F00B32BBB04F4003EAB39 /* Article.swift in Sources */,
+				DC2B06322BC71CAA00B585FA /* detectStartingOfLoopLinkedList.swift in Sources */,
 				DC7E446C2BB95E2000D4A4C8 /* WaitTimeManageable.swift in Sources */,
 				DC3F00B52BBB0531003EAB39 /* Models.swift in Sources */,
 				DC7591092BB4AD3E0077F260 /* CustomThread.swift in Sources */,

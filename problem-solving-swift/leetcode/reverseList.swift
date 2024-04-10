@@ -9,6 +9,19 @@ import Foundation
 
 
 class ListNode: Hashable {
+    
+    func hash(into hasher: inout Hasher) {
+        
+    }
+    
+    static func == (lhs: ListNode, rhs: ListNode) -> Bool {
+        if lhs.val == rhs.val {
+            return true
+        }
+        
+        return false
+    }
+    
     var val: Int
     var next: ListNode?
     init(val: Int, next: ListNode? = nil) {
