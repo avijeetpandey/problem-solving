@@ -8,7 +8,7 @@
 import Foundation
 
 
-class ListNode {
+class ListNode: Hashable {
     var val: Int
     var next: ListNode?
     init(val: Int, next: ListNode? = nil) {
