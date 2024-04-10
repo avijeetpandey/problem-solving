@@ -7,6 +7,8 @@
 
 import Foundation
 
-let result = PowerOfTwo.find(2, n: 3)
+let nums = [3,0,-9,5,0,6,1, -8]
+
+let result = MergeSort.sort(nums)
 
 print(result)
