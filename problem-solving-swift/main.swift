@@ -7,8 +7,6 @@
 
 import Foundation
 
-let nums = [1,2]
-
-let result = MajorityElementII.majorityElement(nums)
+let result = PowerOfTwo.find(2, n: 3)
 
 print(result)
