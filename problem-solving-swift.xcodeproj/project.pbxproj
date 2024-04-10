@@ -28,6 +28,8 @@
 		DC2B06262BC6E9B200B585FA /* reverseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2B06252BC6E9B200B585FA /* reverseList.swift */; };
 		DC2B06282BC6ECDD00B585FA /* middleOfLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2B06272BC6ECDD00B585FA /* middleOfLinkedList.swift */; };
 		DC2B062A2BC6EEF600B585FA /* palindromeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2B06292BC6EEF600B585FA /* palindromeList.swift */; };
+		DC2B062C2BC7117100B585FA /* reverseLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2B062B2BC7117100B585FA /* reverseLinkedList.swift */; };
+		DC2B062E2BC7127000B585FA /* addNumbersAsLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2B062D2BC7127000B585FA /* addNumbersAsLinkedList.swift */; };
 		DC3F000A2BB9BD79003EAB39 /* JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3F00092BB9BD79003EAB39 /* JSONParser.swift */; };
 		DC3F000C2BB9BEE7003EAB39 /* JSONParsingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3F000B2BB9BEE7003EAB39 /* JSONParsingError.swift */; };
 		DC3F000E2BB9BFCD003EAB39 /* testJsonParsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3F000D2BB9BFCD003EAB39 /* testJsonParsing.swift */; };
@@ -119,6 +121,8 @@
 		DC2B06252BC6E9B200B585FA /* reverseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reverseList.swift; sourceTree = "<group>"; };
 		DC2B06272BC6ECDD00B585FA /* middleOfLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = middleOfLinkedList.swift; sourceTree = "<group>"; };
 		DC2B06292BC6EEF600B585FA /* palindromeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = palindromeList.swift; sourceTree = "<group>"; };
+		DC2B062B2BC7117100B585FA /* reverseLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reverseLinkedList.swift; sourceTree = "<group>"; };
+		DC2B062D2BC7127000B585FA /* addNumbersAsLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addNumbersAsLinkedList.swift; sourceTree = "<group>"; };
 		DC3F00092BB9BD79003EAB39 /* JSONParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParser.swift; sourceTree = "<group>"; };
 		DC3F000B2BB9BEE7003EAB39 /* JSONParsingError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParsingError.swift; sourceTree = "<group>"; };
 		DC3F000D2BB9BFCD003EAB39 /* testJsonParsing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testJsonParsing.swift; sourceTree = "<group>"; };
@@ -425,6 +429,8 @@
 				DC2B06252BC6E9B200B585FA /* reverseList.swift */,
 				DC2B06272BC6ECDD00B585FA /* middleOfLinkedList.swift */,
 				DC2B06292BC6EEF600B585FA /* palindromeList.swift */,
+				DC2B062B2BC7117100B585FA /* reverseLinkedList.swift */,
+				DC2B062D2BC7127000B585FA /* addNumbersAsLinkedList.swift */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
@@ -541,6 +547,7 @@
 				DC7E44642BB9561800D4A4C8 /* ReportFactory.swift in Sources */,
 				DC6C94AC2BB5F9B9008717A7 /* AnalyticsError.swift in Sources */,
 				DCE93A252BC4652500B1474C /* sortColors.swift in Sources */,
+				DC2B062C2BC7117100B585FA /* reverseLinkedList.swift in Sources */,
 				DC3F004D2BBAA565003EAB39 /* AdditionProtocol.swift in Sources */,
 				DC2000A92B9F122700CF7DA4 /* Queue.swift in Sources */,
 				DC7E44682BB95DB600D4A4C8 /* TaskRegistrationManageable.swift in Sources */,
@@ -555,6 +562,7 @@
 				DC7591022BB485940077F260 /* Logger.swift in Sources */,
 				DC2B06282BC6ECDD00B585FA /* middleOfLinkedList.swift in Sources */,
 				DC14EFDD2BC598F500586FE8 /* mergeSortedArrays.swift in Sources */,
+				DC2B062E2BC7127000B585FA /* addNumbersAsLinkedList.swift in Sources */,
 				DC7E446E2BB95E6900D4A4C8 /* TaskRegistrationManager.swift in Sources */,
 				DC21DF472BC0493B002743C4 /* stocksBuyAndSell.swift in Sources */,
 				DC7E446A2BB95DDD00D4A4C8 /* CompletionHandleable.swift in Sources */,

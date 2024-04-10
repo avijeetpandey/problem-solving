@@ -7,15 +7,17 @@
 
 import Foundation
 
-func middleNode(_ head: ListNode?) -> ListNode? {
+func middleNode<T>(_ head: Node<T>?) -> Node<T>? {
     var currentNode = head
-    var slowNode: ListNode? = currentNode
-    var fastNode: ListNode? = currentNode
+    var slowNode = head
+    var fastNode = head
     
-    while fastNode != nil && fastNode?.next != nil {
+    while currentNode != nil {
         slowNode = slowNode?.next
         fastNode = fastNode?.next?.next
     }
     
     return slowNode
 }
+
+

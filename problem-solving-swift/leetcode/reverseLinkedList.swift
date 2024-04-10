@@ -1,5 +1,5 @@
 //
-//  reverseList.swift
+//  reverseLinkedList.swift
 //  problem-solving-swift
 //
 //  Created by Avijeet on 10/04/24.
@@ -7,20 +7,10 @@
 
 import Foundation
 
-
-class ListNode {
-    var val: Int
-    var next: ListNode?
-    init(val: Int, next: ListNode? = nil) {
-        self.val = val
-        self.next = next
-    }
-}
-
-func reverseList(_ head: ListNode?) -> ListNode? {
+func reverseLinkedList<T>(_ head: Node<T>?) -> Node<T>? {
     var currentNode = head
-    var prevNode: ListNode? = nil
-    var nextNode: ListNode? = nil
+    var prevNode: Node<T>? = nil
+    var nextNode: Node<T>? = nil
     
     while currentNode != nil {
         nextNode = currentNode?.next
