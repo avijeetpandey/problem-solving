@@ -16,7 +16,6 @@ list.append(40)
 list.append(50)
 list.append(60)
 
-let reversedHead = list.reverse()
+let middleNode = list.middleNode()
 
-list.printList(with: reversedHead)
-
+list.printList(with: middleNode)

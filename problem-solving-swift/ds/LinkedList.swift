@@ -91,6 +91,20 @@ class LinkedList<T> {
         return prevNode
     }
     
+    // MARK: - middle of linked list
+    func middleNode() -> Node<T>? {
+        var currentNode = head
+        var slowNode: Node<T>? = currentNode
+        var fastNode: Node<T>? = currentNode
+        
+        while fastNode != nil && fastNode?.next != nil {
+            slowNode = slowNode?.next
+            fastNode = fastNode?.next?.next
+        }
+        
+        return slowNode
+    }
+    
     // MARK: - printList
     func printList() {
         var currentNode = head
