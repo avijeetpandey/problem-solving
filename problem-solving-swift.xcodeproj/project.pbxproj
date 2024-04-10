@@ -25,6 +25,7 @@
 		DC21DF4D2BC05F86002743C4 /* twoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC21DF4C2BC05F86002743C4 /* twoSum.swift */; };
 		DC21DF4F2BC063B7002743C4 /* binarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC21DF4E2BC063B7002743C4 /* binarySearch.swift */; };
 		DC21DF512BC12A42002743C4 /* topElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC21DF502BC12A42002743C4 /* topElement.swift */; };
+		DC2B06262BC6E9B200B585FA /* reverseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2B06252BC6E9B200B585FA /* reverseList.swift */; };
 		DC3F000A2BB9BD79003EAB39 /* JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3F00092BB9BD79003EAB39 /* JSONParser.swift */; };
 		DC3F000C2BB9BEE7003EAB39 /* JSONParsingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3F000B2BB9BEE7003EAB39 /* JSONParsingError.swift */; };
 		DC3F000E2BB9BFCD003EAB39 /* testJsonParsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3F000D2BB9BFCD003EAB39 /* testJsonParsing.swift */; };
@@ -113,6 +114,7 @@
 		DC21DF4C2BC05F86002743C4 /* twoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = twoSum.swift; sourceTree = "<group>"; };
 		DC21DF4E2BC063B7002743C4 /* binarySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = binarySearch.swift; sourceTree = "<group>"; };
 		DC21DF502BC12A42002743C4 /* topElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = topElement.swift; sourceTree = "<group>"; };
+		DC2B06252BC6E9B200B585FA /* reverseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reverseList.swift; sourceTree = "<group>"; };
 		DC3F00092BB9BD79003EAB39 /* JSONParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParser.swift; sourceTree = "<group>"; };
 		DC3F000B2BB9BEE7003EAB39 /* JSONParsingError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParsingError.swift; sourceTree = "<group>"; };
 		DC3F000D2BB9BFCD003EAB39 /* testJsonParsing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testJsonParsing.swift; sourceTree = "<group>"; };
@@ -416,6 +418,7 @@
 				DC14EFE02BC5AEC500586FE8 /* majorityElement-II.swift */,
 				DC14EFE22BC67E6F00586FE8 /* powerOf2.swift */,
 				DC14EFE62BC6946D00586FE8 /* countReversePairs.swift */,
+				DC2B06252BC6E9B200B585FA /* reverseList.swift */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
@@ -560,6 +563,7 @@
 				DC7591042BB486B30077F260 /* LogLevel.swift in Sources */,
 				DC14EFD72BC57C4600586FE8 /* missingAndRepeating.swift in Sources */,
 				DC801B952B9CD77700A0F56A /* removeDuplicates.swift in Sources */,
+				DC2B06262BC6E9B200B585FA /* reverseList.swift in Sources */,
 				DCE93A232BC461CA00B1474C /* majorityElement.swift in Sources */,
 				DC801B8D2B9CCF1600A0F56A /* NetworkCalls.swift in Sources */,
 				DC3F01172BBC0C1E003EAB39 /* BurgerShop.swift in Sources */,
