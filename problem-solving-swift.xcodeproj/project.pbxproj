@@ -16,6 +16,7 @@
 		DC14EFE12BC5AEC500586FE8 /* majorityElement-II.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC14EFE02BC5AEC500586FE8 /* majorityElement-II.swift */; };
 		DC14EFE32BC67E6F00586FE8 /* powerOf2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC14EFE22BC67E6F00586FE8 /* powerOf2.swift */; };
 		DC14EFE52BC67F8800586FE8 /* mergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC14EFE42BC67F8800586FE8 /* mergeSort.swift */; };
+		DC14EFE72BC6946D00586FE8 /* countReversePairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC14EFE62BC6946D00586FE8 /* countReversePairs.swift */; };
 		DC2000A92B9F122700CF7DA4 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2000A82B9F122700CF7DA4 /* Queue.swift */; };
 		DC21DF452BC044DB002743C4 /* kadanes.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC21DF442BC044DB002743C4 /* kadanes.swift */; };
 		DC21DF472BC0493B002743C4 /* stocksBuyAndSell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC21DF462BC0493B002743C4 /* stocksBuyAndSell.swift */; };
@@ -103,6 +104,7 @@
 		DC14EFE02BC5AEC500586FE8 /* majorityElement-II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "majorityElement-II.swift"; sourceTree = "<group>"; };
 		DC14EFE22BC67E6F00586FE8 /* powerOf2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = powerOf2.swift; sourceTree = "<group>"; };
 		DC14EFE42BC67F8800586FE8 /* mergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mergeSort.swift; sourceTree = "<group>"; };
+		DC14EFE62BC6946D00586FE8 /* countReversePairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = countReversePairs.swift; sourceTree = "<group>"; };
 		DC2000A82B9F122700CF7DA4 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		DC21DF442BC044DB002743C4 /* kadanes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kadanes.swift; sourceTree = "<group>"; };
 		DC21DF462BC0493B002743C4 /* stocksBuyAndSell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stocksBuyAndSell.swift; sourceTree = "<group>"; };
@@ -413,6 +415,7 @@
 				DC14EFDE2BC59D3400586FE8 /* searchMatrix.swift */,
 				DC14EFE02BC5AEC500586FE8 /* majorityElement-II.swift */,
 				DC14EFE22BC67E6F00586FE8 /* powerOf2.swift */,
+				DC14EFE62BC6946D00586FE8 /* countReversePairs.swift */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
@@ -547,6 +550,7 @@
 				DC3F01132BBC0A3E003EAB39 /* Hamburger.swift in Sources */,
 				DC21DF4D2BC05F86002743C4 /* twoSum.swift in Sources */,
 				DCE93A212BC437AD00B1474C /* LinkedList.swift in Sources */,
+				DC14EFE72BC6946D00586FE8 /* countReversePairs.swift in Sources */,
 				DCACBF8A2BA97A3C008D4A1F /* AssociatedTypes.swift in Sources */,
 				DC3F01152BBC0AE9003EAB39 /* HamburgerBuilder.swift in Sources */,
 				DC3F00B72BBB0782003EAB39 /* testJsonParsingFromFile.swift in Sources */,

@@ -7,8 +7,8 @@
 
 import Foundation
 
-let nums = [3,0,-9,5,0,6,1, -8]
+let nums = [2,4,3,5,1]
 
-let result = MergeSort.sort(nums)
+let result = ReversePairs.find(nums)
 
 print(result)
