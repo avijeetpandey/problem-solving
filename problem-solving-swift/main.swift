@@ -7,8 +7,16 @@
 
 import Foundation
 
-let nums = [2,4,3,5,1]
+let list = LinkedList<Int>()
 
-let result = ReversePairs.find(nums)
+list.append(10)
+list.append(20)
+list.append(30)
+list.append(40)
+list.append(50)
+list.append(60)
 
-print(result)
+let reversedHead = list.reverse()
+
+list.printList(with: reversedHead)
+

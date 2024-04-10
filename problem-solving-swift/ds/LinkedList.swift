@@ -5,9 +5,21 @@
 //  Created by Avijeet on 08/04/24.
 //
 
+// Linkedlist implementation
+//      - first
+//      - last
+//      - isEmpty
+//      - count
+//      - append
+//      - removeNodeAt
+//      - nodeAt
+//      - reverse
+//      - find middle
+//      - printList
+
 import Foundation
 
-// MARK: - representation of node
+// MARK: - Node
 class Node<T> {
     var data: T
     var next: Node<T>?
@@ -18,24 +30,32 @@ class Node<T> {
     }
 }
 
+// MARK: - LinkedList
 class LinkedList<T> {
+    
+    // MARK: - Properties
     private var head: Node<T>?
     
     var first: Node<T>? { head }
-    
-    var isEmpty: Bool { head == nil }
     
     var last: Node<T>? {
         var currentNode = head
         while currentNode != nil && currentNode?.next != nil {
             currentNode = currentNode?.next
         }
+        
         return currentNode
     }
     
+    var isEmpty: Bool { head == nil }
+    
     var count: Int {
-        var currentNode = head
+        
+        if isEmpty { return 0}
+        
         var c = 0
+        
+        var currentNode = head
         
         while currentNode != nil {
             c += 1
@@ -45,6 +65,7 @@ class LinkedList<T> {
         return c
     }
     
+    // MARK: - append
     func append(_ element: T) {
         let newNode = Node(data: element)
         if let lastNode = last {
@@ -54,28 +75,43 @@ class LinkedList<T> {
         }
     }
     
-    func nodeAt(_ index: Int) -> Node<T>? {
-        if index > count && index >= 0 { return nil }
-        var c = 0
+    // MARK: - reverse
+    func reverse() -> Node<T>? {
         var currentNode = head
+        var prevNode: Node<T>? = nil
+        var nextNode: Node<T>? = nil
+        
         while currentNode != nil {
-            if c == index {
-                break
-            }
-            
-            currentNode = currentNode?.next
-            
-            c += 1
+            nextNode = currentNode?.next
+            currentNode?.next = prevNode
+            prevNode = currentNode
+            currentNode = nextNode
         }
         
-        return currentNode
+        return prevNode
     }
     
+    // MARK: - printList
     func printList() {
-        var currentHead = head
-        while currentHead != nil  {
-            print(currentHead?.data, terminator: " -> ")
-            currentHead = currentHead?.next
+        var currentNode = head
+        
+        while currentNode != nil {
+            if let data = currentNode?.data {
+                print(data, terminator:" -> ")
+            }
+            currentNode = currentNode?.next
+        }
+        
+        print(" ")
+    }
+    
+    func printList(with head: Node<T>?) {
+        var currentNode = head
+        while currentNode != nil {
+            if let data = currentNode?.data {
+                print(data , terminator: " -> ")
+            }
+            currentNode = currentNode?.next
         }
     }
 }
