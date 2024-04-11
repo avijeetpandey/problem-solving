@@ -303,6 +303,7 @@
 		DC7E44562BB94E3B00D4A4C8 /* patterns */ = {
 			isa = PBXGroup;
 			children = (
+				DC3F01112BBC09D2003EAB39 /* builder-pattern */,
 				DC7E44572BB94E4E00D4A4C8 /* factory-pattern */,
 			);
 			path = patterns;
@@ -371,7 +372,6 @@
 			isa = PBXGroup;
 			children = (
 				DC67F3E12BBC9A45002D9643 /* atcoder */,
-				DC3F01112BBC09D2003EAB39 /* builder-pattern */,
 				DC3F00B02BBB0418003EAB39 /* codables-demo */,
 				DC3F004B2BBAA54E003EAB39 /* delegate-pattern */,
 				DC3F00082BB9BD69003EAB39 /* json-parser */,
