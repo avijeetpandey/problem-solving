@@ -7,9 +7,8 @@
 
 import Foundation
 
-let list = LinkedList<Int>()
+let str = "()[]"
 
-list.append(1)
-list.append(1)
-list.append(2)
+let isValid = ValidParenthesis.validate(str)
 
+print(isValid)
