@@ -33,7 +33,6 @@
 		DC2B06302BC7191E00B585FA /* cycleInLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2B062F2BC7191E00B585FA /* cycleInLinkedList.swift */; };
 		DC2B06322BC71CAA00B585FA /* detectStartingOfLoopLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2B06312BC71CAA00B585FA /* detectStartingOfLoopLinkedList.swift */; };
 		DC2B06342BC7256700B585FA /* intersectionOfLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2B06332BC7256700B585FA /* intersectionOfLinkedList.swift */; };
-		DC2B06382BC7B6BF00B585FA /* bubbleSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2B06372BC7B6BF00B585FA /* bubbleSort.swift */; };
 		DC2B063A2BC7BF7B00B585FA /* validParenthesis.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2B06392BC7BF7B00B585FA /* validParenthesis.swift */; };
 		DC3F000A2BB9BD79003EAB39 /* JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3F00092BB9BD79003EAB39 /* JSONParser.swift */; };
 		DC3F000C2BB9BEE7003EAB39 /* JSONParsingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3F000B2BB9BEE7003EAB39 /* JSONParsingError.swift */; };
@@ -131,7 +130,6 @@
 		DC2B062F2BC7191E00B585FA /* cycleInLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cycleInLinkedList.swift; sourceTree = "<group>"; };
 		DC2B06312BC71CAA00B585FA /* detectStartingOfLoopLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detectStartingOfLoopLinkedList.swift; sourceTree = "<group>"; };
 		DC2B06332BC7256700B585FA /* intersectionOfLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = intersectionOfLinkedList.swift; sourceTree = "<group>"; };
-		DC2B06372BC7B6BF00B585FA /* bubbleSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bubbleSort.swift; sourceTree = "<group>"; };
 		DC2B06392BC7BF7B00B585FA /* validParenthesis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = validParenthesis.swift; sourceTree = "<group>"; };
 		DC3F00092BB9BD79003EAB39 /* JSONParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParser.swift; sourceTree = "<group>"; };
 		DC3F000B2BB9BEE7003EAB39 /* JSONParsingError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParsingError.swift; sourceTree = "<group>"; };
@@ -409,7 +407,6 @@
 				DC21DF442BC044DB002743C4 /* kadanes.swift */,
 				DC21DF4E2BC063B7002743C4 /* binarySearch.swift */,
 				DC14EFE42BC67F8800586FE8 /* mergeSort.swift */,
-				DC2B06372BC7B6BF00B585FA /* bubbleSort.swift */,
 			);
 			path = algorithms;
 			sourceTree = "<group>";
@@ -594,7 +591,6 @@
 				DC3F00B72BBB0782003EAB39 /* testJsonParsingFromFile.swift in Sources */,
 				DC14EFDB2BC5936700586FE8 /* rotateMatrix.swift in Sources */,
 				DC3F000A2BB9BD79003EAB39 /* JSONParser.swift in Sources */,
-				DC2B06382BC7B6BF00B585FA /* bubbleSort.swift in Sources */,
 				DC7E44592BB94E7C00D4A4C8 /* ReportViewModel.swift in Sources */,
 				DC7591042BB486B30077F260 /* LogLevel.swift in Sources */,
 				DC14EFD72BC57C4600586FE8 /* missingAndRepeating.swift in Sources */,
