@@ -32,6 +32,7 @@
 		DC2B062E2BC7127000B585FA /* addNumbersAsLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2B062D2BC7127000B585FA /* addNumbersAsLinkedList.swift */; };
 		DC2B06302BC7191E00B585FA /* cycleInLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2B062F2BC7191E00B585FA /* cycleInLinkedList.swift */; };
 		DC2B06322BC71CAA00B585FA /* detectStartingOfLoopLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2B06312BC71CAA00B585FA /* detectStartingOfLoopLinkedList.swift */; };
+		DC2B06342BC7256700B585FA /* intersectionOfLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2B06332BC7256700B585FA /* intersectionOfLinkedList.swift */; };
 		DC3F000A2BB9BD79003EAB39 /* JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3F00092BB9BD79003EAB39 /* JSONParser.swift */; };
 		DC3F000C2BB9BEE7003EAB39 /* JSONParsingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3F000B2BB9BEE7003EAB39 /* JSONParsingError.swift */; };
 		DC3F000E2BB9BFCD003EAB39 /* testJsonParsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3F000D2BB9BFCD003EAB39 /* testJsonParsing.swift */; };
@@ -127,6 +128,7 @@
 		DC2B062D2BC7127000B585FA /* addNumbersAsLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addNumbersAsLinkedList.swift; sourceTree = "<group>"; };
 		DC2B062F2BC7191E00B585FA /* cycleInLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cycleInLinkedList.swift; sourceTree = "<group>"; };
 		DC2B06312BC71CAA00B585FA /* detectStartingOfLoopLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detectStartingOfLoopLinkedList.swift; sourceTree = "<group>"; };
+		DC2B06332BC7256700B585FA /* intersectionOfLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = intersectionOfLinkedList.swift; sourceTree = "<group>"; };
 		DC3F00092BB9BD79003EAB39 /* JSONParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParser.swift; sourceTree = "<group>"; };
 		DC3F000B2BB9BEE7003EAB39 /* JSONParsingError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParsingError.swift; sourceTree = "<group>"; };
 		DC3F000D2BB9BFCD003EAB39 /* testJsonParsing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testJsonParsing.swift; sourceTree = "<group>"; };
@@ -437,6 +439,7 @@
 				DC2B062D2BC7127000B585FA /* addNumbersAsLinkedList.swift */,
 				DC2B062F2BC7191E00B585FA /* cycleInLinkedList.swift */,
 				DC2B06312BC71CAA00B585FA /* detectStartingOfLoopLinkedList.swift */,
+				DC2B06332BC7256700B585FA /* intersectionOfLinkedList.swift */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
@@ -568,6 +571,7 @@
 				DC6C94AA2BB5F924008717A7 /* AnalyticsManager.swift in Sources */,
 				DC7591022BB485940077F260 /* Logger.swift in Sources */,
 				DC2B06282BC6ECDD00B585FA /* middleOfLinkedList.swift in Sources */,
+				DC2B06342BC7256700B585FA /* intersectionOfLinkedList.swift in Sources */,
 				DC14EFDD2BC598F500586FE8 /* mergeSortedArrays.swift in Sources */,
 				DC2B062E2BC7127000B585FA /* addNumbersAsLinkedList.swift in Sources */,
 				DC7E446E2BB95E6900D4A4C8 /* TaskRegistrationManager.swift in Sources */,
