@@ -183,6 +183,7 @@
 		DC801B9A2B9D8F5500A0F56A /* minMaxSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = minMaxSum.swift; sourceTree = "<group>"; };
 		DC801B9C2B9DAFA100A0F56A /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		DC8B04532BBFEC2A00DCFD1A /* Hoc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hoc.swift; sourceTree = "<group>"; };
+		DC8C6A222BD398C600D2BDDF /* twoSum.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = twoSum.js; sourceTree = "<group>"; };
 		DCACBF872BA97742008D4A1F /* TypeAlias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeAlias.swift; sourceTree = "<group>"; };
 		DCACBF892BA97A3C008D4A1F /* AssociatedTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssociatedTypes.swift; sourceTree = "<group>"; };
 		DCE93A202BC437AD00B1474C /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
@@ -443,6 +444,7 @@
 				DC2B06312BC71CAA00B585FA /* detectStartingOfLoopLinkedList.swift */,
 				DC2B06332BC7256700B585FA /* intersectionOfLinkedList.swift */,
 				DC2B06392BC7BF7B00B585FA /* validParenthesis.swift */,
+				DC8C6A222BD398C600D2BDDF /* twoSum.js */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
