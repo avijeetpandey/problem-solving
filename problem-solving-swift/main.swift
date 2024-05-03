@@ -7,8 +7,4 @@
 
 import Foundation
 
-let str = "()[]"
-
-let isValid = ValidParenthesis.validate(str)
-
-print(isValid)
+testClousres()

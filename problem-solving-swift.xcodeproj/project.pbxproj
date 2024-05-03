@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A6411A82BE4E07B0067B703 /* Closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6411A72BE4E07B0067B703 /* Closures.swift */; };
 		DC14EFD52BC566A100586FE8 /* setMatrixZero.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC14EFD42BC566A100586FE8 /* setMatrixZero.swift */; };
 		DC14EFD72BC57C4600586FE8 /* missingAndRepeating.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC14EFD62BC57C4600586FE8 /* missingAndRepeating.swift */; };
 		DC14EFD92BC588B400586FE8 /* findDuplicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC14EFD82BC588B400586FE8 /* findDuplicate.swift */; };
@@ -104,6 +105,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8A6411A72BE4E07B0067B703 /* Closures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Closures.swift; sourceTree = "<group>"; };
 		DC14EFD42BC566A100586FE8 /* setMatrixZero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = setMatrixZero.swift; sourceTree = "<group>"; };
 		DC14EFD62BC57C4600586FE8 /* missingAndRepeating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = missingAndRepeating.swift; sourceTree = "<group>"; };
 		DC14EFD82BC588B400586FE8 /* findDuplicate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = findDuplicate.swift; sourceTree = "<group>"; };
@@ -457,6 +459,7 @@
 				DCACBF872BA97742008D4A1F /* TypeAlias.swift */,
 				DCACBF892BA97A3C008D4A1F /* AssociatedTypes.swift */,
 				DC8B04532BBFEC2A00DCFD1A /* Hoc.swift */,
+				8A6411A72BE4E07B0067B703 /* Closures.swift */,
 			);
 			path = swift;
 			sourceTree = "<group>";
@@ -529,6 +532,7 @@
 				DC2B06322BC71CAA00B585FA /* detectStartingOfLoopLinkedList.swift in Sources */,
 				DC7E446C2BB95E2000D4A4C8 /* WaitTimeManageable.swift in Sources */,
 				DC3F00B52BBB0531003EAB39 /* Models.swift in Sources */,
+				8A6411A82BE4E07B0067B703 /* Closures.swift in Sources */,
 				DC7591092BB4AD3E0077F260 /* CustomThread.swift in Sources */,
 				DC7E445D2BB9543B00D4A4C8 /* ReportType.swift in Sources */,
 				DC6C94AE2BB5FA1F008717A7 /* CustomAnalyticsProvider.swift in Sources */,
