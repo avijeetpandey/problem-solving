@@ -9,3 +9,6 @@ Repo to manage algorithmic questions using `Swift`
 - Selection Sort: O(n * n)
 - Travelling salesperson : O(n!)
 - Bubble sort: O(n * n)
+
+
+made with swift
