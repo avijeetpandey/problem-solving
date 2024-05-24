@@ -7,4 +7,7 @@
 
 import Foundation
 
-testClousres()
+class Example {
+    @LogName static var impData: String = "Hello"
+}
+
