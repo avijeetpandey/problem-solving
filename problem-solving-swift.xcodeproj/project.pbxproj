@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A392EE42C3462F0008A4383 /* palindromeNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A392EE32C3462F0008A4383 /* palindromeNumber.swift */; };
 		8A4514D82C0062A20006EEBB /* Annotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4514D72C0062A20006EEBB /* Annotation.swift */; };
 		8A6411A82BE4E07B0067B703 /* Closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6411A72BE4E07B0067B703 /* Closures.swift */; };
 		DC14EFD52BC566A100586FE8 /* setMatrixZero.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC14EFD42BC566A100586FE8 /* setMatrixZero.swift */; };
@@ -106,6 +107,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8A392EE32C3462F0008A4383 /* palindromeNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = palindromeNumber.swift; sourceTree = "<group>"; };
 		8A4514D72C0062A20006EEBB /* Annotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Annotation.swift; sourceTree = "<group>"; };
 		8A6411A72BE4E07B0067B703 /* Closures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Closures.swift; sourceTree = "<group>"; };
 		DC14EFD42BC566A100586FE8 /* setMatrixZero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = setMatrixZero.swift; sourceTree = "<group>"; };
@@ -449,6 +451,7 @@
 				DC2B06332BC7256700B585FA /* intersectionOfLinkedList.swift */,
 				DC2B06392BC7BF7B00B585FA /* validParenthesis.swift */,
 				DC8C6A222BD398C600D2BDDF /* twoSum.js */,
+				8A392EE32C3462F0008A4383 /* palindromeNumber.swift */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
@@ -577,6 +580,7 @@
 				DC6C94A62BB5F813008717A7 /* Event.swift in Sources */,
 				DC7E44602BB9546900D4A4C8 /* TaxReport.swift in Sources */,
 				DC801B802B9CCE0900A0F56A /* main.swift in Sources */,
+				8A392EE42C3462F0008A4383 /* palindromeNumber.swift in Sources */,
 				DC14EFDF2BC59D3400586FE8 /* searchMatrix.swift in Sources */,
 				DC3F00592BBAA7C3003EAB39 /* ImageDownloadProtocol.swift in Sources */,
 				DC3F004F2BBAA582003EAB39 /* Manager.swift in Sources */,

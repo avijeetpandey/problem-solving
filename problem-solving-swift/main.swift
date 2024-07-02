@@ -7,7 +7,4 @@
 
 import Foundation
 
-class Example {
-    @LogName static var impData: String = "Hello"
-}
-
+print(palindromeNumber(121))
