@@ -20,7 +20,7 @@ func testJsonParsing() {
 }
 
 private func testEncoding() {
-    let parser = JSONParser.shared
+    _ = JSONParser.shared
     
     let userModel: User = User(name: "Avi",
                                age: 23,
