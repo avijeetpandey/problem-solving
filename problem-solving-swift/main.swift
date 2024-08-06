@@ -7,4 +7,4 @@
 
 import Foundation
 
-print(palindromeNumber(121))
+print(singleNumber([4,1,2,1,2]))

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8A392EE42C3462F0008A4383 /* palindromeNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A392EE32C3462F0008A4383 /* palindromeNumber.swift */; };
+		8A3DA2962C6296E900FDEB7B /* singleNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3DA2952C6296E900FDEB7B /* singleNumber.swift */; };
 		8A4514D82C0062A20006EEBB /* Annotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4514D72C0062A20006EEBB /* Annotation.swift */; };
 		8A6411A82BE4E07B0067B703 /* Closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6411A72BE4E07B0067B703 /* Closures.swift */; };
 		DC14EFD52BC566A100586FE8 /* setMatrixZero.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC14EFD42BC566A100586FE8 /* setMatrixZero.swift */; };
@@ -108,6 +109,7 @@
 
 /* Begin PBXFileReference section */
 		8A392EE32C3462F0008A4383 /* palindromeNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = palindromeNumber.swift; sourceTree = "<group>"; };
+		8A3DA2952C6296E900FDEB7B /* singleNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = singleNumber.swift; sourceTree = "<group>"; };
 		8A4514D72C0062A20006EEBB /* Annotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Annotation.swift; sourceTree = "<group>"; };
 		8A6411A72BE4E07B0067B703 /* Closures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Closures.swift; sourceTree = "<group>"; };
 		DC14EFD42BC566A100586FE8 /* setMatrixZero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = setMatrixZero.swift; sourceTree = "<group>"; };
@@ -452,6 +454,7 @@
 				DC2B06392BC7BF7B00B585FA /* validParenthesis.swift */,
 				DC8C6A222BD398C600D2BDDF /* twoSum.js */,
 				8A392EE32C3462F0008A4383 /* palindromeNumber.swift */,
+				8A3DA2952C6296E900FDEB7B /* singleNumber.swift */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
@@ -572,6 +575,7 @@
 				DCACBF882BA97742008D4A1F /* TypeAlias.swift in Sources */,
 				DC7E44642BB9561800D4A4C8 /* ReportFactory.swift in Sources */,
 				DC6C94AC2BB5F9B9008717A7 /* AnalyticsError.swift in Sources */,
+				8A3DA2962C6296E900FDEB7B /* singleNumber.swift in Sources */,
 				DCE93A252BC4652500B1474C /* sortColors.swift in Sources */,
 				DC2B062C2BC7117100B585FA /* reverseLinkedList.swift in Sources */,
 				DC3F004D2BBAA565003EAB39 /* AdditionProtocol.swift in Sources */,
