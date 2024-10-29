@@ -20,6 +20,7 @@ protocol Stackable {
     associatedtype Item
     var stack: [Item] { get set }
     var count: Int { get }
+    
     func push(_ element: Item)
     func pop() -> Item
     func peek() -> Item
