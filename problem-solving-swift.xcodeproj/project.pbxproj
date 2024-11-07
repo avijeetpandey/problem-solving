@@ -194,6 +194,7 @@
 		DC8C6A222BD398C600D2BDDF /* twoSum.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = twoSum.js; sourceTree = "<group>"; };
 		DCACBF872BA97742008D4A1F /* TypeAlias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeAlias.swift; sourceTree = "<group>"; };
 		DCACBF892BA97A3C008D4A1F /* AssociatedTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssociatedTypes.swift; sourceTree = "<group>"; };
+		DCDF7DD52CDCA99900EB069E /* Notes.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Notes.md; sourceTree = "<group>"; };
 		DCE93A202BC437AD00B1474C /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
 		DCE93A222BC461CA00B1474C /* majorityElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = majorityElement.swift; sourceTree = "<group>"; };
 		DCE93A242BC4652500B1474C /* sortColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sortColors.swift; sourceTree = "<group>"; };
@@ -380,6 +381,7 @@
 		DC801B7E2B9CCE0900A0F56A /* problem-solving-swift */ = {
 			isa = PBXGroup;
 			children = (
+				DCDF7DD52CDCA99900EB069E /* Notes.md */,
 				DC67F3E12BBC9A45002D9643 /* atcoder */,
 				DC3F00B02BBB0418003EAB39 /* codables-demo */,
 				DC3F004B2BBAA54E003EAB39 /* delegate-pattern */,

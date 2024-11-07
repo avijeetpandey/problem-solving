@@ -51,7 +51,7 @@ class Stack<T>: Stackable {
     
     // MARK: - pop() -> T?
     func pop() -> T {
-        top -= 1
+        top -= 1                    
         return stack.removeLast()
     }
     
