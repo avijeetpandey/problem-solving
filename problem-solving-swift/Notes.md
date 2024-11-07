@@ -65,3 +65,58 @@ Classes
 
 
 
+
+### Computed and Stored properties
+Stored properties
+- Stpred properties hold the actual values and are available in classes and structs
+- They can be either `let` or `var`
+- Enums cannot hold stored properties
+
+```swift
+struct Person {
+    var name: String  // Stored property
+    let birthYear: Int  // Immutable stored property
+}
+
+var person = Person(name: "Alice", birthYear: 1990)
+person.name = "Bob"  // Mutable stored property, so it can be modified
+// person.birthYear = 1992  // Error: Immutable property, cannot be modified
+```
+
+Computed properties
+- Computed properties do not hold the value directly , either they calculate properties based on other properties
+- A computed property can be a getter only , setter only or both
+- Thet are defined with var as they change dynamically
+
+```swift
+struct Rectangle {
+    var width: Double  // Stored property
+    var height: Double  // Stored property
+
+    var area: Double {  // Computed property with only a getter
+        return width * height
+    }
+
+    var perimeter: Double {  // Computed property with both getter and setter
+        get {
+            return 2 * (width + height)
+        }
+        set(newPerimeter) {
+            // Adjust width and height based on the new perimeter
+            width = newPerimeter / 4
+            height = newPerimeter / 4
+        }
+    }
+}
+
+var rect = Rectangle(width: 5.0, height: 10.0)
+print(rect.area)  // Output: 50.0 (computed from width and height)
+print(rect.perimeter)  // Output: 30.0 (computed from width and height)
+
+rect.perimeter = 40.0  // Sets a new perimeter, changing width and height
+print(rect.width, rect.height)  // Output: 10.0 10.0
+
+```
+
+### Associated types
+
