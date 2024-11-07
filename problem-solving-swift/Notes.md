@@ -6,7 +6,31 @@ App thinning is introduced by apple in order to optimise the resource consumptio
 - BitCode
 - On demand resources
 
-### Memory Management ( ARC )
-ARC - Automatic reference counting
+### Inout and Mutating 
+Inout - By default passed function parameters are constant and cant be modified , inout lets you modify the same 
 
-Memory management referes to efficiently use memory resoures efficiently and deallocate them when required
+```swift
+func increment(number: inout Int) {
+    number += 1
+}
+
+var myNumber = 5
+increment(number: &myNumber)
+print(myNumber)  // Output: 6
+
+```
+
+Mutating - Mutuating functions are used with structs and enums to modify instance properties
+```swift
+struct Counter {
+    var count = 0
+
+    mutating func increment() {
+        count += 1
+    }
+}
+
+var counter = Counter()
+counter.increment()
+print(counter.count)  // Output: 1
+```
