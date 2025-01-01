@@ -4,7 +4,7 @@
 Repo to manage algorithmic questions using `Swift`
 
 ### Time complexities of popular algorithms
-- Binary Search: O(log n)
+- Binary Search: O(log n) - [done]
 - Quick Sort: O(n * log n)
 - Selection Sort: O(n * n)
 - Travelling salesperson : O(n!)
