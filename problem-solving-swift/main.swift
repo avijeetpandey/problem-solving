@@ -7,4 +7,4 @@
 
 import Foundation
 
-palindromeString(with: "aba")
+countDivisors(l: 1, r: 10, k: 1)
