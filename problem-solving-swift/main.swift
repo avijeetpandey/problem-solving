@@ -7,4 +7,4 @@
 
 import Foundation
 
-findZoos(with: "zzzooooo")
+palindromeString(with: "aba")
