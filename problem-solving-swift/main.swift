@@ -7,10 +7,11 @@
 
 import Foundation
 
-let adjacencyGraph = GraphAdjanceyMatrix(size: 4)
-adjacencyGraph.addEdge(from: 0, to: 1)
-adjacencyGraph.addEdge(from: 0, to: 2)
-adjacencyGraph.addEdge(from: 1, to: 2)
-adjacencyGraph.addEdge(from: 2, to: 3)
+let graph = BFSGraph(size: 5)
 
-adjacencyGraph.printMatrix()
+graph.addEdge(from: 0, to: 1)
+graph.addEdge(from: 0, to: 2)
+graph.addEdge(from: 1, to: 3)
+graph.addEdge(from: 2, to: 4)
+
+graph.bfs(startNode: 0)
