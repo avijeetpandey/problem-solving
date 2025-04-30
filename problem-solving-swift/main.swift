@@ -7,4 +7,10 @@
 
 import Foundation
 
-countDivisors(l: 1, r: 10, k: 1)
+let adjacencyGraph = GraphAdjanceyMatrix(size: 4)
+adjacencyGraph.addEdge(from: 0, to: 1)
+adjacencyGraph.addEdge(from: 0, to: 2)
+adjacencyGraph.addEdge(from: 1, to: 2)
+adjacencyGraph.addEdge(from: 2, to: 3)
+
+adjacencyGraph.printMatrix()
