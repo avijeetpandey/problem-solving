@@ -45,3 +45,6 @@ class BFSGraph {
         print()
     }
 }
+
+// Time complexity = O(V + E)
+// Space complexity = 0(V)
