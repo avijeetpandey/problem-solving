@@ -55,6 +55,8 @@
 		DC3F01172BBC0C1E003EAB39 /* BurgerShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3F01162BBC0C1E003EAB39 /* BurgerShop.swift */; };
 		DC3F53F12DC2BD8600AE4BE2 /* adjanceyMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3F53F02DC2BD8000AE4BE2 /* adjanceyMatrix.swift */; };
 		DC3F53F52DC2C51600AE4BE2 /* bfs.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3F53F42DC2C50F00AE4BE2 /* bfs.swift */; };
+		DC3F53F72DC2CA6000AE4BE2 /* dfs.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3F53F62DC2CA5E00AE4BE2 /* dfs.swift */; };
+		DC3F53FB2DC375DB00AE4BE2 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3F53FA2DC375D300AE4BE2 /* Graph.swift */; };
 		DC67F3E32BBC9A50002D9643 /* divisible.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC67F3E22BBC9A50002D9643 /* divisible.swift */; };
 		DC6C94A42BB5F7FA008717A7 /* AnalyticsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6C94A32BB5F7FA008717A7 /* AnalyticsProvider.swift */; };
 		DC6C94A62BB5F813008717A7 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6C94A52BB5F813008717A7 /* Event.swift */; };
@@ -166,6 +168,8 @@
 		DC3F01162BBC0C1E003EAB39 /* BurgerShop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurgerShop.swift; sourceTree = "<group>"; };
 		DC3F53F02DC2BD8000AE4BE2 /* adjanceyMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = adjanceyMatrix.swift; sourceTree = "<group>"; };
 		DC3F53F42DC2C50F00AE4BE2 /* bfs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bfs.swift; sourceTree = "<group>"; };
+		DC3F53F62DC2CA5E00AE4BE2 /* dfs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dfs.swift; sourceTree = "<group>"; };
+		DC3F53FA2DC375D300AE4BE2 /* Graph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
 		DC67F3E22BBC9A50002D9643 /* divisible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = divisible.swift; sourceTree = "<group>"; };
 		DC6C94A32BB5F7FA008717A7 /* AnalyticsProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsProvider.swift; sourceTree = "<group>"; };
 		DC6C94A52BB5F813008717A7 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
@@ -300,6 +304,8 @@
 		DC3F53EF2DC2B9A900AE4BE2 /* graphs */ = {
 			isa = PBXGroup;
 			children = (
+				DC3F53FA2DC375D300AE4BE2 /* Graph.swift */,
+				DC3F53F62DC2CA5E00AE4BE2 /* dfs.swift */,
 				DC3F53F42DC2C50F00AE4BE2 /* bfs.swift */,
 				DC3F53F02DC2BD8000AE4BE2 /* adjanceyMatrix.swift */,
 			);
@@ -585,6 +591,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC2B063A2BC7BF7B00B585FA /* validParenthesis.swift in Sources */,
+				DC3F53F72DC2CA6000AE4BE2 /* dfs.swift in Sources */,
 				DC7E44742BB9615800D4A4C8 /* CustomDispatchGroup.swift in Sources */,
 				DC21DF4F2BC063B7002743C4 /* binarySearch.swift in Sources */,
 				DC21DF452BC044DB002743C4 /* kadanes.swift in Sources */,
@@ -618,6 +625,7 @@
 				DC21DF492BC05255002743C4 /* containsDuplicate.swift in Sources */,
 				DC91F69B2D89D7820036DFE4 /* Zoos.swift in Sources */,
 				DC7E44792BB9B04700D4A4C8 /* StarWarApi.swift in Sources */,
+				DC3F53FB2DC375DB00AE4BE2 /* Graph.swift in Sources */,
 				DC801B992B9CDAFA00A0F56A /* ErrorHandling.swift in Sources */,
 				DC7E44702BB95F0500D4A4C8 /* CompletionHandlerManager.swift in Sources */,
 				DC7E44762BB9AB2000D4A4C8 /* DispatchGroupExample.swift in Sources */,

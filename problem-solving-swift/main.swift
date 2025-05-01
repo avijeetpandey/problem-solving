@@ -7,11 +7,11 @@
 
 import Foundation
 
-let graph = BFSGraph(size: 5)
+let graph = Graph(size: 5)
 
-graph.addEdge(from: 0, to: 1)
-graph.addEdge(from: 0, to: 2)
-graph.addEdge(from: 1, to: 3)
-graph.addEdge(from: 2, to: 4)
+graph.addUndirectedEdge(from: 0, to: 1)
+graph.addUndirectedEdge(from: 0, to: 2)
+graph.addUndirectedEdge(from: 1, to: 3)
+graph.addUndirectedEdge(from: 2, to: 4)
 
 graph.bfs(startNode: 0)
