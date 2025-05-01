@@ -6,12 +6,16 @@
 //
 
 class Graph {
-    private var adjacencyList: [[Int]]
+    var adjacencyList: [[Int]]
     private let size: Int
     
     init(size: Int) {
         self.size = size
         self.adjacencyList = Array(repeating: [], count: size)
+    }
+    
+    var graphSize: Int {
+        return size
     }
     
     // add directed edge

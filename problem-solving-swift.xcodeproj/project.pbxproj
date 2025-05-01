@@ -57,6 +57,8 @@
 		DC3F53F52DC2C51600AE4BE2 /* bfs.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3F53F42DC2C50F00AE4BE2 /* bfs.swift */; };
 		DC3F53F72DC2CA6000AE4BE2 /* dfs.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3F53F62DC2CA5E00AE4BE2 /* dfs.swift */; };
 		DC3F53FB2DC375DB00AE4BE2 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3F53FA2DC375D300AE4BE2 /* Graph.swift */; };
+		DC3F53FD2DC3787500AE4BE2 /* cycleDetection.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3F53FC2DC3786F00AE4BE2 /* cycleDetection.swift */; };
+		DC3F53FF2DC3805400AE4BE2 /* canFinish.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3F53FE2DC3805000AE4BE2 /* canFinish.swift */; };
 		DC67F3E32BBC9A50002D9643 /* divisible.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC67F3E22BBC9A50002D9643 /* divisible.swift */; };
 		DC6C94A42BB5F7FA008717A7 /* AnalyticsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6C94A32BB5F7FA008717A7 /* AnalyticsProvider.swift */; };
 		DC6C94A62BB5F813008717A7 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6C94A52BB5F813008717A7 /* Event.swift */; };
@@ -170,6 +172,8 @@
 		DC3F53F42DC2C50F00AE4BE2 /* bfs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bfs.swift; sourceTree = "<group>"; };
 		DC3F53F62DC2CA5E00AE4BE2 /* dfs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dfs.swift; sourceTree = "<group>"; };
 		DC3F53FA2DC375D300AE4BE2 /* Graph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
+		DC3F53FC2DC3786F00AE4BE2 /* cycleDetection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cycleDetection.swift; sourceTree = "<group>"; };
+		DC3F53FE2DC3805000AE4BE2 /* canFinish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = canFinish.swift; sourceTree = "<group>"; };
 		DC67F3E22BBC9A50002D9643 /* divisible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = divisible.swift; sourceTree = "<group>"; };
 		DC6C94A32BB5F7FA008717A7 /* AnalyticsProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsProvider.swift; sourceTree = "<group>"; };
 		DC6C94A52BB5F813008717A7 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
@@ -304,6 +308,8 @@
 		DC3F53EF2DC2B9A900AE4BE2 /* graphs */ = {
 			isa = PBXGroup;
 			children = (
+				DC3F53FE2DC3805000AE4BE2 /* canFinish.swift */,
+				DC3F53FC2DC3786F00AE4BE2 /* cycleDetection.swift */,
 				DC3F53FA2DC375D300AE4BE2 /* Graph.swift */,
 				DC3F53F62DC2CA5E00AE4BE2 /* dfs.swift */,
 				DC3F53F42DC2C50F00AE4BE2 /* bfs.swift */,
@@ -614,6 +620,7 @@
 				DC7E44722BB9604D00D4A4C8 /* WaitTimeManager.swift in Sources */,
 				DC14EFD52BC566A100586FE8 /* setMatrixZero.swift in Sources */,
 				DC3F000E2BB9BFCD003EAB39 /* testJsonParsing.swift in Sources */,
+				DC3F53FD2DC3787500AE4BE2 /* cycleDetection.swift in Sources */,
 				DC67F3E32BBC9A50002D9643 /* divisible.swift in Sources */,
 				DC801B9B2B9D8F5500A0F56A /* minMaxSum.swift in Sources */,
 				DC3F00552BBAA74A003EAB39 /* ImageDownloader.swift in Sources */,
@@ -624,6 +631,7 @@
 				DC21DF4B2BC05586002743C4 /* Anagram.swift in Sources */,
 				DC21DF492BC05255002743C4 /* containsDuplicate.swift in Sources */,
 				DC91F69B2D89D7820036DFE4 /* Zoos.swift in Sources */,
+				DC3F53FF2DC3805400AE4BE2 /* canFinish.swift in Sources */,
 				DC7E44792BB9B04700D4A4C8 /* StarWarApi.swift in Sources */,
 				DC3F53FB2DC375DB00AE4BE2 /* Graph.swift in Sources */,
 				DC801B992B9CDAFA00A0F56A /* ErrorHandling.swift in Sources */,
