@@ -12,7 +12,7 @@ class CycleDetection {
         self.graph = graph
     }
     
-    func detectCycle(startNode: Int) -> Bool {
+    func detectCycleInUndirectedGraph(startNode: Int) -> Bool {
         var visited = Array(repeating: false, count: graph.graphSize)
         
         // handling disconnected components
@@ -46,6 +46,11 @@ class CycleDetection {
                 }
             }
         }
+        
+        return false
+    }
+    
+    func detectCycleInDirectedGraph(startNode: Int) -> Bool {
         
         return false
     }

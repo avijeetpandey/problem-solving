@@ -40,7 +40,7 @@ class Graph {
         
         // process each node and its neighbours
         while !queue.isEmpty {
-            var frontNode = queue.removeFirst()
+            let frontNode = queue.removeFirst()
             print(frontNode, terminator: " ")
             
             // start traversing the neighbours of the frontnode and process them as well
