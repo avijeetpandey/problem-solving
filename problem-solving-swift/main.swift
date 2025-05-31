@@ -37,4 +37,29 @@ class IntegerGraphImplementation: Graphable {
         adjacencyList[u].append(v)
         adjacencyList[v].append(u) // make bidirectional connection with the nodes
     }
+    
+    func bfs(startNode: Int) {
+        // visited array
+        var visited = Array(repeating: false, count: graphSize)
+        
+        // queue to handle and process nodes and its neighbours
+        var queue: [Int] = []
+        
+        queue.append(startNode)
+        visited[startNode] = true
+        
+        while !queue.isEmpty {
+            let frontNode = queue.removeFirst()
+            print("\(frontNode)", terminator: " ")
+            
+            // process the node and its neighbour nodes
+            // mark them visited if seen once
+            for neighbour in adjacencyList[frontNode] {
+                if !visited[neighbour] {
+                    visited[neighbour] = true
+                    queue.append(neighbour)
+                }
+            }
+        }
+    }
 }
